@@ -19,12 +19,16 @@
      ?>
     </div>
     <div class="content-right">
-    <?php 
-          /**
-           *  include slider whitch contains portfolio sites
-           */
-          require_once(get_stylesheet_directory().'/_partials/_index-sites.php');
-        ?>
+        <div class="box">
+            <div id="move-left"> << </div>
+            <?php 
+                /**
+                 *  include slider whitch contains portfolio sites
+                 */
+                require_once(get_stylesheet_directory().'/_partials/_index-sites.php');
+            ?>
+            <div id="move-right"> >> </div>
+        </div>
     </div>
 <?php
     get_footer();

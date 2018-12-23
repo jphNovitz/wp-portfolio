@@ -20,10 +20,19 @@ h2 {
 }
 
 
+
 .container >div {
     display: flex;
     flex-basis: 100%;
     padding: 2em;
+}
+
+.box{
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    padding: 0;
+    height: fit-content;
 }
 
 .sites {
@@ -202,17 +211,24 @@ h2 {
         /* order: 5; */
         display: inline-flex;
         display: -webkit-inline-box !important;
-        flex-basis: 80% !important;
-        height: 55% !important;
-        width: 20vh !important;
+        flex-basis: 35rem !important; 
+        /* height: 55% !important; */
+        /* height: fit-content; */
+        width: 35rem !important; 
         overflow: hidden;
         flex-direction: row;
-        padding: 10px 10%;
+        padding: 10px 10px;
     }
 
+    .sites-items{
+        display: -webkit-inline-box !important;
+        /* max-width: 40vw; */
+        margin-left: 1rem;
+    }
     .sites-item{
         padding: 1rem 2rem;
-        width: 90%;
+         width: 30rem;  
+       /* width: 85%; */
         margin: 0 .5rem;
     }
 

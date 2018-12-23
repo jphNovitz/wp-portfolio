@@ -1,4 +1,5 @@
 <div class="trick">
+    <div class="sites-items">
         <?php
             while(have_posts()){
                 the_post();
@@ -16,4 +17,5 @@
                 </p>
             </div>
             <?php } ?>
+    </div>
 </div>  
