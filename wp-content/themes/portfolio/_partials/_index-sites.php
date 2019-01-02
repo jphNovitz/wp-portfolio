@@ -1,5 +1,4 @@
-<div class="trick">
-    <div class="sites-items">
+    <div class=" sites-items">
         <?php
             while(have_posts()){
                 the_post();
@@ -18,4 +17,3 @@
             </div>
             <?php } ?>
     </div>
-</div>  

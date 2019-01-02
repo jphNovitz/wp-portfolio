@@ -7,6 +7,8 @@
     <meta name="description" content="Novitz Jean-Philippe développeur web php utilisant le cms worpress et le framework
     symfony.  Javascript soit Vanilla Javascript, librairie jQuery ou framework vuejs." />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"
             integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
             crossorigin="anonymous">
@@ -17,7 +19,7 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
     
               
        
