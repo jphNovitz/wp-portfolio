@@ -16,12 +16,15 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 class Portfolio {
 
     public function __construct(){
+        add_action('init', [$this, 'portfolio_taxonomy']);
         add_action('init', [$this, 'create_portfolio_custom_type']);
+        add_post_type_support('portfolio', array('page', 'excerpt')); // excerpt are disable by default
+        add_action('init', [$this, 'add_fields_portfolio']);
         add_action('add_meta_boxes', [$this, 'portfolio_boxes']);
+        add_action('save_post', [$this, 'save_metaboxes']);
     }
 
     public function activate(){
-
 
         flush_rewrite_rules();     
     }
@@ -30,6 +33,69 @@ class Portfolio {
 
 
         flush_rewrite_rules();
+    }
+
+    public function portfolio_taxonomy()
+    {
+        $labels_language = [
+            'name' => 'Langages',
+            'singular_name' => 'Langage',
+            'parent_item'=>'langage parent',
+            'menu_name' => 'Langage',
+            'all_items' => 'tous',
+            'most_used' => 'populaires',
+            'edit_item' => 'Editer un langage',
+            'view_item' => 'apercu',
+            'update_item' => 'modifier langage',
+            'add_new_item' => 'ajouter',
+            'new_item_name' => 'Nom',
+            'popular_items' => 'Les plus populaires',
+            'separate_items_with_commas' => 'chacun est séparé d\'une virgule',
+            'add_or_remove_items' => 'ajouter ou supprimer un élement',
+            'choose_from_most_used' => 'les plus utilisés',
+            'not_found' => 'non trouvé',
+            'back_to_items' => 'retour'
+        ];
+        $args_language = [
+            'hierarchical' => true,
+            'labels' => $labels_language,
+            'show_ui' => true,
+            'show_admin_column' => true,
+            'query_var' => true,
+            'rewrite' => ['slug' => 'langage'],
+        ];
+
+        $labels_techno = [
+            'name' => 'Techno',
+            'singular_name' => 'Techno',
+            'parent_item'=>'Techno parente',
+            'menu_name' => 'Techno',
+            'all_items' => 'tous',
+            'most_used' => 'populaires',
+            'edit_item' => 'Editer une  techno',
+            'view_item' => 'apercu',
+            'update_item' => 'modifier techno',
+            'add_new_item' => 'ajouter',
+            'new_item_name' => 'Nom',
+            'popular_items' => 'Les plus populaires',
+            'separate_items_with_commas' => 'chacun est séparé d\'une virgule',
+            'add_or_remove_items' => 'ajouter ou supprimer un élement',
+            'choose_from_most_used' => 'les plus utilisés',
+            'not_found' => 'non trouvé',
+            'back_to_items' => 'retour'
+        ];
+        $args_techno = [
+            'hierarchical' => true,
+            'labels' => $labels_techno,
+            'show_ui' => true,
+            'show_admin_column' => true,
+            'query_var' => true,
+            'rewrite' => ['slug' => 'techno'],
+        ];
+
+
+        register_taxonomy('langage', ['portfolio'], $args_language);
+        register_taxonomy('techno', ['portfolio'], $args_techno);
     }
 
     public function create_portfolio_custom_type(){
@@ -65,34 +131,79 @@ class Portfolio {
         register_post_type('portfolio', $author_args);
    
     }
+    
+    /*  function add_fields_portfolio(){
+          var_dump($_GET['post_type']);die();
+        if ($_GET['post_type'] == 'portfolio') {
+            update_post_meta($post_id, 'portfolio_url', '', true);
+        }
+        if ($_GET['post_type'] == 'portfolio') {
+            update_post_meta($post_id, 'portfolio_url_git', '', true);
+        }
 
+        return true;
+    } */
+
+
+    /* metaboxes creation -> one different box by theme   */
     public function portfolio_boxes(){
         add_meta_box('portfolio_url',
         'Url',
         [$this, 'set_portfolio_url_meta'],
         'portfolio',
         'side',
-        'default'
+        'high'
         );
+
+        add_meta_box('portfolio_git',
+        'github',
+        [$this, 'set_portfolio_url_git_meta'],
+        'portfolio',
+        'side',
+        'low'
+        );
+
+        add_meta_box('difficulties',
+        'difficulté',
+        [$this, 'set_portfolio_difficulty_meta'],
+        'portfolio',
+        'side',
+        'low'
+        );  
 
     }
 
-    public function set_portfolio_url_meta(){
-        
-        echo '<h4>Url du site</h4>';
-        echo '<input type="text" name="url_site" />';
-        echo '<h4>Url du code (github)</h4>';
+    /* metaboxes views / visualisation */
+    public function set_portfolio_url_meta($post){
+        $url_site = get_post_meta($post->ID, 'portfolio_url', true);
+        echo '<pre>';var_dump(get_post_meta($post->ID));echo '</pre>'; //die();
+        //var_dump(get_post_meta($url_site)); die();
+       // echo '<h4>Url du site</h4>';
+        echo '<input type="text" name="portfolio_url" value="'.$url_site.'" />';
+    }
+    public function set_portfolio_url_git_meta($post){
+        $url_git = get_post_meta($post->ID, 'portfolio_url_git', true);
+        //echo '<h4>Url du code (github)</h4>';
         echo '<input type="text" name="url_code" />';        
     }
 
+    public function set_portfolio_difficulty_meta(){
+        echo '<select name="difficulty">';
+            echo '<option value="0">  </option>';
+            echo '<option value="1"> * </option>';
+            echo '<option value="2"> ** </option>';
+            echo '<option value="3"> *** </option>';
+            echo '<option value="4"> **** </option>';
+            echo '<option value="5"> ***** </option>';
+        echo '</select>';
+    }
+
     function save_metaboxes($post_ID){
-        if(isset($_POST['url_site'])){
-            update_post_meta($post_ID,'url_site', esc_html($_POST['url_site']));
-        } 
-        if(isset($_POST['url_code'])){
-            update_post_meta($post_ID,'url_code', esc_html($_POST['url_code']));
+        if(isset($_POST['portfolio_url'])){
+            update_post_meta($post_ID,'portfolio_url', esc_html($_POST['portfolio_url']));
         }
     }
+   
 
 }
 
