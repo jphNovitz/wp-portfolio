@@ -132,17 +132,22 @@ class Portfolio {
    
     }
     
-    /*  function add_fields_portfolio(){
-          var_dump($_GET['post_type']);die();
+      function add_fields_portfolio(){
+         
         if ($_GET['post_type'] == 'portfolio') {
             update_post_meta($post_id, 'portfolio_url', '', true);
-        }
+        }  
         if ($_GET['post_type'] == 'portfolio') {
             update_post_meta($post_id, 'portfolio_url_git', '', true);
+        }  
+        if ($_GET['post_type'] == 'portfolio') {
+            update_post_meta($post_id, 'portfolio_difficulty', '', true);
         }
+        // var_dump(get_post_meta());
+        // var_dump($_GET['post_type']);die();
 
         return true;
-    } */
+    } 
 
 
     /* metaboxes creation -> one different box by theme   */
@@ -163,7 +168,7 @@ class Portfolio {
         'low'
         );
 
-        add_meta_box('difficulties',
+        add_meta_box('portfolio_difficulty',
         'difficulté',
         [$this, 'set_portfolio_difficulty_meta'],
         'portfolio',
@@ -176,7 +181,7 @@ class Portfolio {
     /* metaboxes views / visualisation */
     public function set_portfolio_url_meta($post){
         $url_site = get_post_meta($post->ID, 'portfolio_url', true);
-        echo '<pre>';var_dump(get_post_meta($post->ID));echo '</pre>'; //die();
+        echo '<pre>';//var_dump(get_post_meta($post->ID));echo '</pre>'; //die();
         //var_dump(get_post_meta($url_site)); die();
        // echo '<h4>Url du site</h4>';
         echo '<input type="text" name="portfolio_url" value="'.$url_site.'" />';
@@ -184,23 +189,40 @@ class Portfolio {
     public function set_portfolio_url_git_meta($post){
         $url_git = get_post_meta($post->ID, 'portfolio_url_git', true);
         //echo '<h4>Url du code (github)</h4>';
-        echo '<input type="text" name="url_code" />';        
+        echo '<input type="text" name="portfolio_url_git" value="'.$url_git.'" />';        
     }
 
-    public function set_portfolio_difficulty_meta(){
-        echo '<select name="difficulty">';
-            echo '<option value="0">  </option>';
-            echo '<option value="1"> * </option>';
-            echo '<option value="2"> ** </option>';
-            echo '<option value="3"> *** </option>';
-            echo '<option value="4"> **** </option>';
-            echo '<option value="5"> ***** </option>';
+    public function set_portfolio_difficulty_meta($post){
+        $difficulty = (int)get_post_meta($post->ID, 'portfolio_difficulty', true);
+        echo '<select name="portfolio_difficulty">';
+            echo '<option value="0" '.$this->getDifficulty($difficulty, 0). '> 0 </option>';
+            echo '<option value="1" '.$this->getDifficulty($difficulty, 1). '> * </option>';
+            echo '<option value="2" '.$this->getDifficulty($difficulty, 2). '> ** </option>';
+            echo '<option value="3" '.$this->getDifficulty($difficulty, 3). '> *** </option>';
+            echo '<option value="4" '.$this->getDifficulty($difficulty, 4). '> **** </option>';
+            echo '<option value="5" '.$this->getDifficulty($difficulty, 5).' > ***** </option>';
         echo '</select>';
     }
+
+    public function getDifficulty(Int $dif, Int $number){
+        if ($dif == $number) { 
+            return 'selected="selected"';
+        } else {
+            return 'a';
+        }
+    }
+
+    
 
     function save_metaboxes($post_ID){
         if(isset($_POST['portfolio_url'])){
             update_post_meta($post_ID,'portfolio_url', esc_html($_POST['portfolio_url']));
+        } 
+        if(isset($_POST['portfolio_url_git'])){ 
+            update_post_meta($post_ID,'portfolio_url_git', esc_html($_POST['portfolio_url_git']));
+        }
+        if(isset($_POST['portfolio_difficulty'])){
+            update_post_meta($post_ID,'portfolio_difficulty', esc_html($_POST['portfolio_difficulty']));
         }
     }
    
