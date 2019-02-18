@@ -1,12 +1,32 @@
 <?php
+/**
+ * file single-portfolio.php
+ * Content of a portfolio site
+ * author: Novitz Jean-Philippe <novitz@gmail.com>
+ * date: 02-2019
+ */
+?>
+
+<?php
+/**
+ *  the header contains the left navbar
+ */
+?>
+<?php
     get_header();
 ?>
-<div class="col-lg-9">
-    <h2> <?php echo get_the_title(); ?> </h2>
-    <p> <em><?php echo get_the_excerpt(); ?></em></p>
 
-    <p> <?php echo get_the_content(); ?></p>
-</div>    
+
+<?php
+/**
+ *  the 'single' template part is the real content of the page
+ */
+?>
+
+<?php
+    get_template_part('template-parts/single');
+?>
+
 <?php
     get_footer();
 ?>

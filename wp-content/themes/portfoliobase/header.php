@@ -22,33 +22,21 @@
     <div class="container-fluid">
     <div class="row">
             <div class="col-lg-12">
-                <nav class="navbar navbar-light" style="background-color: #e3e3e3; color: #ee6f57;">
-                    <div class="" >
-                        <a class="navbar-brand" href="#">Welcome to my world</a> Welcome to my world 
-                    </div>    
-                </nav>    
+                <?php get_template_part('template-parts/site-title'); ?> 
             </div>
     </div>
         <div class="row">
             <div class="col-lg-3">
-                <div class="list-group">
-                    <?php 
-                        $query = new WP_Query(['post_type'=>'portfolio']);
-                        if ($query->have_posts()):
-                            while ($query->have_posts()): $query->the_post(); 
-                    ?>
-                            <div class="list-group-item list-group-item-action">
-                                <?php
-                                   echo '<a href="'.get_the_permalink().'">';
-                                    echo get_the_title();
-                                   echo '</a>'; 
-                                ?>
-                            </div>
-                    <?php 
-                            endwhile;
-                        endif;
-                    ?>
-                </div>
+                <?php get_template_part('template-parts/nav-left'); ?>
             </div>    
+
+            <?php 
+                /**
+                 * Here above, the 'get_template_part' includes are not necessary
+                 * It just give me some space, some air and makes my code more readable
+                 * Those are parts are tiny and more easy to maintain
+                 * AND I DO WHAT I WANT !
+                 */
+            ?>
               
        
