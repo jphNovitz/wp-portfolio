@@ -7,7 +7,7 @@
                 <li><a href="https://twitter.com/jphNovitz"><i class="fab fa-twitter"></i></a></li>
                 <li><a href="https://www.facebook.com/jphNovitz/"><i class="fab fa-facebook"></i></a></li>
                 <li><a href="https://www.instagram.com/jphNovitz/"><i class="fab fa-instagram"></i></a></li>
-            </u>
+            </ul>
         </div>
 
  
