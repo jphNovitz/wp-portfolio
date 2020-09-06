@@ -90,6 +90,8 @@ get_header();
             <div class="columns m2" id="js">
                 <h3>Le javascript est incontournable dans web moderne</h3>
             </div>
+        </div>
+    </div>
             <div class="row text-center">
                 <div class="columns small-12 medium-6 large-2 large-offset-3 medium-offset-3 ">
                     <span
