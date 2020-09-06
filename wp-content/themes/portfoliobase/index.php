@@ -26,49 +26,51 @@ get_header();
             <div class="columns m2" id="php">
                 <h3>Le php et ses outils:</h3>
             </div>
-            <div class="row text-center">
-                <div class="columns small-12 medium-6 large-3 ">
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="columns small-12 medium-6 large-3 ">
                     <span
                             class="span-image"
                             style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/logo_symfony.png')">
                     </span>
-                    <p class="m2">
-                        J'utilise le framework Symfony depuis la version deux et j'ai suivi les différentes évolutions
-                        jusqu'à la version actuelle (5)
-                    </p>
-                </div>
-                <div class="columns small-12 medium-6 large-3">
+            <p class="m2">
+                J'utilise le framework Symfony depuis la version deux et j'ai suivi les différentes évolutions
+                jusqu'à la version actuelle (5)
+            </p>
+        </div>
+        <div class="columns small-12 medium-6 large-3">
                     <span
                             class="span-image"
                             style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/logo_laravel.png')">
                     </span>
-                    <p class="m2">Pour un de mes employeurs j'ai été amené à utiliser Laravel. J'ai ensuite réalisé de
-                        petits projet perso.</p>
-                </div>
-                <div class="columns small-12 medium-6 large-3">
+            <p class="m2">Pour un de mes employeurs j'ai été amené à utiliser Laravel. J'ai ensuite réalisé de
+                petits projet perso.</p>
+        </div>
+        <div class="columns small-12 medium-6 large-3">
                     <span
                             class="span-image"
                             style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/logo_wordpress.png')">
                     </span>
-                    <p class="m2">Wordpress est le cms php peut-être le plus utilisé dans le monde professionnel. Il est
-                        impossible de passer à côté.
-                        Ce portfolio est propulsé par wordpress.</p>
-                </div>
-                <div class="columns small-12 medium-6 large-3">
+            <p class="m2">Wordpress est le cms php peut-être le plus utilisé dans le monde professionnel. Il est
+                impossible de passer à côté.
+                Ce portfolio est propulsé par wordpress.</p>
+        </div>
+        <div class="columns small-12 medium-6 large-3">
                     <span
                             class="span-image"
                             style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/logo_prestashop.png')">
                     </span>
-                    <p class="m2">
-                        Prestashop est le CMS E-Commerce incontournable.
-                    </p>
-                </div>
-                <div class="columns small-12 large-3">
-
-                </div>
-            </div>
+            <p class="m2">
+                Prestashop est le CMS E-Commerce incontournable.
+            </p>
+        </div>
+        <div class="columns small-12 large-3">
 
         </div>
+    </div>
+
+    </div>
     </div>
 
     <div class="row m2">
@@ -78,7 +80,7 @@ get_header();
                 projets,
                 Twig avec Symfony, Blade avec Laravel, npm, yarn, gulp (sans être un expert).
                 Mes frameworks css favoris sont <strong>Bootstrap</strong> ,<strong>Semantic UI</strong>, <strong>Foundation</strong>
-
+            </p>
         </div>
 
     </div>
@@ -187,8 +189,9 @@ get_header();
                             style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/sites/allergens-basics.png')">
                     </span>
                 <p class="m2">
-                    <strong><a href="http://demos.jphnovitz.be/clementine-allergies/">alergene basic</a></strong> est une démo Vue,js 2.  La mise en relation entre des allergies et des aliments.
-                    <a href="https://jphnovitz.github.io/allergens-basic/">documentation  </a> et code
+                    <strong><a href="http://demos.jphnovitz.be/clementine-allergies/">alergene basic</a></strong> est
+                    une démo Vue,js 2. La mise en relation entre des allergies et des aliments.
+                    <a href="https://jphnovitz.github.io/allergens-basic/">documentation </a> et code
                     <a href="https://github.com/jphNovitz/allergens-basic">github</a>.
 
                 </p>
