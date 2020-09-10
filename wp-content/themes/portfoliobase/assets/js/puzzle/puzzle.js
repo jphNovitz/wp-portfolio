@@ -193,7 +193,9 @@ function shuffle() {
                     break;
 
             }
-        }, 60 * i, i)
+        }, 800 * i, i)
     }
 
 }
+
+shuffle();
