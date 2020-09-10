@@ -8,19 +8,38 @@ get_header();
 -->
 
     <div class="row">
-        <div class="columns small-12 large-10 large-offset-1 text-center">
-            <h2>Bienvenue</h2>
-            <p class="lead">
-                Je suis un développeur WEB made in LIEGE, diplômé
-                <br/> Formé à Symfony <span class="more-big">(2, 3, 4) </span> et Javascript <span class="more-big">(vanilla, jQuery) </span>
-                j'ai ajouté <span class="more-big">des cordes à mon arc avec </span> VUE.JS LARAVEL, PRESTASHOP, <span
-                        class="more-big">aussi node et socket.io</span>.
-                <span class="more-big"><br/>Si vous souhaiter utiliser ce que je sais ou si vous avez une autre corde pour moi.</span>
-                Je suis disponible Immédiatement.
-            </p>
-
+        <div class="columns small-10 small-offset-1 medium-10 offset-medium-1 large-5 large-offset-3">
+            <div id="container-puzzle">
+                <div class="row">
+                    <div class="thumb" id="t1"></div>
+                    <div class="thumb" id="t2"
+                         ></div>
+                    <div class="thumb" id="t3"
+                         ></div>
+                    <div class="thumb" id="t4"
+                         ></div>
+                    <div class="thumb" id="t5"
+                         ></div>
+                    <div class="thumb" id="t6"
+                         ></div>
+                    <div class="thumb" id="t7"
+                         ></div>
+                    <div class="thumb" id="t8"
+                         ></div>
+                    <div class="thumb" id="t9"
+                         ></div>
+                    <div class="thumb" id="t10"
+                         ></div>
+                    <div class="thumb" id="t11"
+                         ></div>
+                    <div class="thumb blank" id="t12"
+                    >
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
     <div class="row">
         <div class="columns small-12 large-12">
             <div class="columns m2" id="php">
@@ -92,39 +111,39 @@ get_header();
             </div>
         </div>
     </div>
-            <div class="row text-center">
-                <div class="columns small-12 medium-6 large-2 large-offset-3 medium-offset-3 ">
+    <div class="row text-center">
+        <div class="columns small-12 medium-6 large-2 large-offset-3 medium-offset-3 ">
                     <span
                             class="span-image"
                             style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/logo_js.png')">
                     </span>
-                    <p class="m2">
-                        Le <strong>vanilla JS</strong> évolue sans cesse et est performant sans utiliser de librairie
-                    </p>
-                </div>
-                <div class="columns small-12 medium-6 large-2">
+            <p class="m2">
+                Le <strong>vanilla JS</strong> évolue sans cesse et est performant sans utiliser de librairie
+            </p>
+        </div>
+        <div class="columns small-12 medium-6 large-2">
                     <span
                             class="span-image"
                             style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/logo_jquery.png')">
                     </span>
-                    <p class="m2">
-                        <strong>jQuery</strong> est peut-être démodé mais tellement présent et utile pour ce qu'il fait
-                        qu'il faut connaitre cette libraire
-                    </p>
-                </div>
-                <div class="columns small-12 medium-2 large-2">
+            <p class="m2">
+                <strong>jQuery</strong> est peut-être démodé mais tellement présent et utile pour ce qu'il fait
+                qu'il faut connaitre cette libraire
+            </p>
+        </div>
+        <div class="columns small-12 medium-2 large-2">
                     <span
                             class="span-image"
                             style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/logo_vuejs.png')">
                     </span>
-                    <p class="m2">
-                        <strong>Vue.js</strong> est l'un des frameworks les plus récents et les plus dynamiques.
-                    </p>
-                </div>
-
-
-            </div>
+            <p class="m2">
+                <strong>Vue.js</strong> est l'un des frameworks les plus récents et les plus dynamiques.
+            </p>
         </div>
+
+
+    </div>
+    </div>
 
     </div>
 

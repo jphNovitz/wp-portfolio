@@ -17,6 +17,10 @@ if (!function_exists('base_enqueue_styles')) {
         wp_enqueue_script('foundation', get_stylesheet_directory_uri().'/foundation-portfolio/node_modules/foundation-sites/dist/js/foundation.js', array(), null);
 //        wp_enqueue_script('javascript', get_stylesheet_directory_uri().'/assets/js/app.js');
         wp_enqueue_script('app', get_stylesheet_directory_uri().'/assets/js/app.js');
+     //puzzle
+        wp_enqueue_style('puzzlestyle', get_stylesheet_directory_uri().'/assets/css/puzzle/puzzle.css', [], false, false);
+        wp_enqueue_script('puzzle', get_stylesheet_directory_uri().'/assets/js/puzzle/puzzle.js', [], false, true);
+        //
 
     }
     add_action('wp_enqueue_scripts', 'base_enqueue_styles');

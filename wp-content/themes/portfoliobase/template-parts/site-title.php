@@ -16,7 +16,7 @@
 
 <div class="top-bar" id="menu1">
     <div class="top-bar-left ">
-        <ul class="dropdown menu" data-dropdown-menu>
+        <ul class="dropdown menu vertical medium-horizontal large-horizontal" data-dropdown-menu>
             <li class="menu-text">jphNovitz</li>
             <li><a href="#">Accueil</a></li>
             <li><a href="#">Compétences</a>
