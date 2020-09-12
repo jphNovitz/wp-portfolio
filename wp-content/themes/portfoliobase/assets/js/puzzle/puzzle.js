@@ -10,10 +10,8 @@
  */
 
 /* variables */
-
-
 var parent = document.getElementById('container-puzzle');
-console.log(parent);
+
 var children = parent.getElementsByClassName('thumb')
 const container = document.getElementById('container-puzzle');
 
@@ -49,53 +47,6 @@ container.addEventListener('click', function (e) {
     // }
 
 })
-
-function reset() {
-    document.getElementById('result').style.opacity = 0;
-    document.getElementById('result').style.zIndex = -1;
-
-    for (let i = 0; i < children.length; i++) {
-        children[i].removeAttribute('id')
-        let j = i + 1
-        parent.children[i].id = 't' + j
-    }
-    timer.innerText = '00 : 00';
-    document.getElementById('indice').innerText = '';
-
-}
-
-
-function checkScore() {
-    let score = 0;
-    for (let i = 0; i < children.length; i++) {
-        if (children[i].id.substr(1) == (i + 1)) {
-            score++;
-        }
-    }
-    return score;
-}
-
-function stop() {
-    clearInterval(runChrono);
-
-    if (checkScore() >= children.length) finalResult = "BRAVO, Vous avez réussi le Puzzle !"
-    else finalResult = "Vous n'avez pas Réussi ! ";
-
-    let divResult = document.getElementById('result');
-    let comment = document.createElement('p');
-    comment.innerText = 'Votre temps: ' + chrono;
-
-    divResult.getElementsByTagName('h1')[0].append(finalResult);
-    divResult.getElementsByTagName('h2')[0].append(comment);
-
-    divResult.style.zIndex = 2;
-    divResult.style.opacity = 1;
-    divResult.style.visibility = 'visible';
-
-    document.getElementById('btn-stop').classList.add('disabled');
-    return true;
-}
-
 
 /**
  * @description nNextSibling method determine whether the n sinling of the element exist (n is the level)
@@ -153,6 +104,7 @@ function showAlert() {
 }
 
 function shuffle() {
+
     for (let i = 0; i < 100; i++) {
         setTimeout(function () {
             let target = document.getElementById('t12');
@@ -198,4 +150,5 @@ function shuffle() {
 
 }
 
+document.getElementById('t12').style.backgroundImage='none';
 shuffle();
