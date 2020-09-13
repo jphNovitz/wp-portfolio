@@ -7,38 +7,38 @@ get_header();
     ?>
 -->
 
-    <div class="row">
-        <div class="columns small-10 small-offset-1 medium-10 offset-medium-1 large-5 large-offset-3">
-            <div id="container-puzzle">
-                <div class="row">
-                    <div class="thumb" id="t1"></div>
-                    <div class="thumb" id="t2"
-                         ></div>
-                    <div class="thumb" id="t3"
-                         ></div>
-                    <div class="thumb" id="t4"
-                         ></div>
-                    <div class="thumb" id="t5"
-                         ></div>
-                    <div class="thumb" id="t6"
-                         ></div>
-                    <div class="thumb" id="t7"
-                         ></div>
-                    <div class="thumb" id="t8"
-                         ></div>
-                    <div class="thumb" id="t9"
-                         ></div>
-                    <div class="thumb" id="t10"
-                         ></div>
-                    <div class="thumb" id="t11"
-                         ></div>
-                    <div class="thumb blank" id="t12"
-                    >
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<!--    <div class="row">-->
+<!--        <div class="columns small-10 small-offset-1 medium-10 offset-medium-1 large-5 large-offset-3">-->
+<!--            <div id="container-puzzle">-->
+<!--                <div class="row">-->
+<!--                    <div class="thumb" id="t1"></div>-->
+<!--                    <div class="thumb" id="t2"-->
+<!--                         ></div>-->
+<!--                    <div class="thumb" id="t3"-->
+<!--                         ></div>-->
+<!--                    <div class="thumb" id="t4"-->
+<!--                         ></div>-->
+<!--                    <div class="thumb" id="t5"-->
+<!--                         ></div>-->
+<!--                    <div class="thumb" id="t6"-->
+<!--                         ></div>-->
+<!--                    <div class="thumb" id="t7"-->
+<!--                         ></div>-->
+<!--                    <div class="thumb" id="t8"-->
+<!--                         ></div>-->
+<!--                    <div class="thumb" id="t9"-->
+<!--                         ></div>-->
+<!--                    <div class="thumb" id="t10"-->
+<!--                         ></div>-->
+<!--                    <div class="thumb" id="t11"-->
+<!--                         ></div>-->
+<!--                    <div class="thumb blank" id="t12"-->
+<!--                    >-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
 
     <div class="row">
         <div class="columns small-12 large-12">
@@ -87,9 +87,6 @@ get_header();
         <div class="columns small-12 large-3">
 
         </div>
-    </div>
-
-    </div>
     </div>
 
     <div class="row m2">
@@ -143,9 +140,7 @@ get_header();
 
 
     </div>
-    </div>
 
-    </div>
 
     <div class="row">
 

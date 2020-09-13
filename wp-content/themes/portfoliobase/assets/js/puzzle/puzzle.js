@@ -145,10 +145,12 @@ function shuffle() {
                     break;
 
             }
-        }, 800 * i, i)
+        }, 850 * i, i)
     }
 
 }
 
-document.getElementById('t12').style.backgroundImage='none';
-shuffle();
+// document.getElementById('t12').style.backgroundImage='none';
+setTimeout(function () {
+    shuffle();
+}, 8000)
