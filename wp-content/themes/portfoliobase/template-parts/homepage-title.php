@@ -7,9 +7,9 @@
  * date: 02-2019
  */
 ?>
-<div class="row" id="frontrow" >
+<!--<div class="row" id="frontrow" >-->
 
-<div class="title-bar small-margin-collapse" data-responsive-toggle="menu1" data-hide-for="small">
+<div class="title-bar small-margin-collapse" data-responsive-toggle="menu1" data-hide-for="medium">
     <button class="menu-icon" type="button" data-toggle="menu1"></button>
     <div class="title-bar-title"> Novitz Jean-Philippe </div>
 </div>
@@ -41,16 +41,23 @@
 <!--        </ul>-->
 <!--    </div>-->
 </div>
-<div class="row" id="intro">
-    <div id="" class="columns small-12 large-6  text-center">
+<div class="row align-middle" id="intro">
+    <div class="column small-12 large-12 text-center">
         <h2>Bienvenue</h2>
+    </div>
+    <div id="" class="columns small-12 large-6  text-center">
+
         <p class="lead">
-            Je suis un développeur WEB made in LIEGE, diplômé
-            <br/> Formé à Symfony <span class="more-big">(2, 3, 4) </span> et Javascript <span class="more-big">(vanilla, jQuery) </span>
-            j'ai ajouté <span class="more-big">des cordes à mon arc avec </span> VUE.JS LARAVEL, PRESTASHOP, <span
-                class="more-big">aussi node et socket.io</span>.
-            <span class="more-big"><br/>Si vous souhaiter utiliser ce que je sais ou si vous avez une autre corde pour moi.</span>
-            Je suis disponible Immédiatement.
+            Développeur Php (Symfony, Laravel, Prestashop) et Javascript (jQuery, Vue.js) disponible immédiatement.
+        </p>
+        <p class="lead">N'hesitez pas à me <a href="mailto:hello@jphnovitz.be" > contacter </a>pour ce que je sais faire (Site vitrines, Ecommerce, Api Rest, application Vue.js, socket.io) ou pour m'apporter
+            une nouvelle expérience dans ce que vous faite.
+<!--            Je suis un développeur WEB made in LIEGE, diplômé-->
+<!--            <br/> Formé à Symfony <span class="more-big">(2, 3, 4) </span> et Javascript <span class="more-big">(vanilla, jQuery) </span>-->
+<!--            j'ai ajouté <span class="more-big">des cordes à mon arc avec </span> VUE.JS LARAVEL, PRESTASHOP, <span-->
+<!--                class="more-big">aussi node et socket.io</span>.-->
+<!--            <span class="more-big"><br/>Si vous souhaiter utiliser ce que je sais ou si vous avez une autre corde pour moi.</span>-->
+<!--            Je suis disponible Immédiatement.-->
         </p>
 
     </div>

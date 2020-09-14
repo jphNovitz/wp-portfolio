@@ -7,7 +7,7 @@
 #frontrow .top-bar{
   margin: auto;
 }
-#frontrow .top-bar, .top-bar ul {
+.top-bar, .top-bar ul {
   background-color: transparent !important;
 }
 
@@ -16,7 +16,7 @@
   color: #0a0a0a;
 }
 #frontrow .title-bar-title {
-    padding-left: 20px;
+    //padding-left: 20px;
 }
 
 #frontrow .menu-icon::after {
