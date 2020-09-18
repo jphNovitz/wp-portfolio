@@ -11,6 +11,7 @@ if (!function_exists('base_enqueue_styles')) {
   //      wp_enqueue_style( 'style', get_stylesheet_uri() );
 //        wp_enqueue_style( 'style', get_stylesheet_directory_uri().'/assets/css/main.css' );
         wp_enqueue_style( 'style', get_stylesheet_directory_uri().'/assets/css/app.css' );
+        wp_enqueue_style( 'webicons', get_stylesheet_directory_uri().'/assets/webicons.css' );
 //        wp_enqueue_style( 'style', get_stylesheet_directory_uri().'/assets/css/style.css' );
 //        wp_enqueue_script('javascript', get_stylesheet_directory_uri().'/assets/js/main.js');
         wp_enqueue_script('what-input', get_stylesheet_directory_uri().'/foundation-portfolio/node_modules/what-input/dist/what-input.min.js', array(), null);
@@ -20,6 +21,7 @@ if (!function_exists('base_enqueue_styles')) {
      //puzzle
         wp_enqueue_style('puzzlestyle', get_stylesheet_directory_uri().'/assets/css/puzzle/puzzle.css', [], false, false);
         wp_enqueue_script('puzzle', get_stylesheet_directory_uri().'/assets/js/puzzle/puzzle.js', [], false, true);
+        wp_enqueue_script('modernizer', get_stylesheet_directory_uri().'/assets/js/modernizr-custom.js', [], false, true);
         //
 
     }
