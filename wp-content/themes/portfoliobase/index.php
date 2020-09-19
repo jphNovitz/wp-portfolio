@@ -149,6 +149,62 @@ get_header();
         </div>
     </div>
     <div class="row">
+        <div
+                class="columns small-12 medium-6 large-4  site-parent"
+                style="background-image: url(
+                        '<?php echo get_template_directory_uri(); ?>/assets/img/sites/laclementine_00.png') ;">
+            <div class="text-center site-child-1">
+                <h3><a href="https://sandwicherie.jphnovitz.be">Sandwicherie</a> </h3>
+                <p>A
+                la base mon travaile de fin d'études et le site d'une
+                sandwhicherie de Saint-Nicolas (La Clémentine). Site réalisé avec <u>Symfony 4</u>.
+                </p>
+                <p>le code se  trouve sur <a href="https://github.com/jphNovitz/sandwicherie">github</a></p>
+            </div>
+        </div>
+        <div class="columns small-12 medium-6 large-8 ">
+            <div class="row site-parent-row" style=" background-color: white ; height: 25vh ; ">
+                <div
+                     class="columns small-12 medium-6 large-4 site-parent-secondary"
+                     style=" background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/sites/wellness.png') ;
+                             background-repeat: no-repeat ;
+                             background-size: cover">
+
+                    <div class="site-child-1">
+                        <p>
+                            <span class="lead-description"><a href="http://www.wellness360.be">wellness360.be</a></span>
+                            <br >est un travaille dirrigé
+                            lors de mes études à l'ISL Saint-LaurentProsoc
+                            Il s'agit d'un annuaire fictifs de centres wellness. Site réalisé avec <u>Symfony 3</u>, le code se
+                            trouve sur <a href="https://github.com/jphNovitz/wellness">Github </a>
+
+                        </p>
+                    </div>
+                </div>
+                <div
+                     class="columns small-12 medium-6 large-4 "
+                     style=" background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/sites/flat.png') ;
+                             background-repeat: no-repeat ;
+                             background-size: cover">
+                    a
+                </div>
+            </div>
+            <div class="row" style=" background-color: white ; height: 25vh ;">
+                <div class="columns small-12 medium-6 large-4 site-parent-secondary"
+                     style=" background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/sites/crearchitex.png')" ;>
+                </div>
+                <div id="site-1"
+                     class="columns small-12 medium-6 large-4 "
+                     style=" background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/sites/allergens-basics.png') ;
+                             background-repeat: no-repeat ;
+                             background-size: cover">
+                    a
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
         <div class="row text-center">
             <div class="columns small-12 medium-6 large-4 ">
                     <span
@@ -222,10 +278,12 @@ get_header();
     <div class="grid-x grid-padding-x">
         <div class="cell large-12">
             <h2>Expériences professionnelles</h2>
-            <p>Junior est un point de départ, pour évoluer il faut des expériences professionnelles.  Chacune des entreprises
-            dans laquelle je suis passé m'a appris un tas de choses que ce soit au niveau d'une techno, d'un language, d'un logiciel,
-            d'une organisation ou tout simplemenent au niveau humain.
-            <br />Merci à elles.</p>
+            <p>Junior est un point de départ, pour évoluer il faut des expériences professionnelles. Chacune des
+                entreprises
+                dans laquelle je suis passé m'a appris un tas de choses que ce soit au niveau d'une techno, d'un
+                language, d'un logiciel,
+                d'une organisation ou tout simplemenent au niveau humain.
+                <br/>Merci à elles.</p>
         </div>
 
         <div class="cell medium-6 large-3">
@@ -237,11 +295,11 @@ get_header();
                 <div class="card-section">
                     <ul>
                         <li>9 mois en 2020</li>
-                        <li>Symfony 4 </li>
+                        <li>Symfony 4</li>
                         <li>jQuery</li>
                         <li>Websockets</li>
                     </ul>
-                    <p><a href="https://onlyweb.be">Onlyweb.be</a> </p>
+                    <p><a href="https://onlyweb.be">Onlyweb.be</a></p>
                 </div>
             </div>
 
@@ -251,7 +309,7 @@ get_header();
 
             <div class="card ">
                 <div class="card-divider">
-                    <h3 >Produweb</h3>
+                    <h3>Produweb</h3>
                 </div>
                 <div class="card-section">
                     <ul>
@@ -272,7 +330,7 @@ get_header();
                 <div class="card-section">
                     <ul>
                         <li>9 mois en 2018</li>
-                        <li>Symfony 5 </li>
+                        <li>Symfony 5</li>
                         <li>Vue.js</li>
                         <li>Api Rest</li>
                     </ul>
@@ -303,12 +361,12 @@ get_header();
 
             <div class="card">
                 <div class="card-divider">
-                    <h3 >Newave</h3>
+                    <h3>Newave</h3>
                 </div>
                 <div class="card-section">
                     <ul>
                         <li>Stage 2 mois en 2015</li>
-                        <li>Wordpress </li>
+                        <li>Wordpress</li>
                         <li>jQuery</li>
                         <li>Mobile First</li>
                     </ul>
