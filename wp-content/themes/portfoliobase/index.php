@@ -142,30 +142,26 @@ get_header();
     </div>
 
 
-    <div class="row">
 
-        <div class="columns m2" id="php">
+    <div class="row m2" style="background-color: rgba(225, 226, 227, .95) ;">
+        <div class="columns small-12">
             <h3>Réalisations et démos</h3>
         </div>
-    </div>
-    <div class="row">
-        <div
-                class="columns small-12 medium-6 large-4  site-parent"
-                style="background-image: url(
-                        '<?php echo get_template_directory_uri(); ?>/assets/img/sites/laclementine_00.png') ;">
+        <div class="columns small-12 medium-6 large-4  site-parent"
+             style="background-image: url(
+                     '<?php echo get_template_directory_uri(); ?>/assets/img/sites/laclementine_00.png') ;">
             <div class="text-center site-child-1">
-                <h3><a href="https://sandwicherie.jphnovitz.be">Sandwicherie</a> </h3>
+                <h3><a href="https://sandwicherie.jphnovitz.be">Sandwicherie</a></h3>
                 <p>A
-                la base mon travaile de fin d'études et le site d'une
-                sandwhicherie de Saint-Nicolas (La Clémentine). Site réalisé avec <u>Symfony 4</u>.
+                    la base mon travaile de fin d'études et le site d'une
+                    sandwhicherie de Saint-Nicolas (La Clémentine). Site réalisé avec <u>Symfony 4</u>.
                 </p>
-                <p>le code se  trouve sur <a href="https://github.com/jphNovitz/sandwicherie">github</a></p>
+                <p>le code se trouve sur <a href="https://github.com/jphNovitz/sandwicherie">github</a></p>
             </div>
         </div>
         <div class="columns small-12 medium-6 large-8 ">
             <div class="row site-parent-row" style=" background-color: white ; height: 25vh ; ">
-                <div
-                     class="columns small-12 medium-6 large-4 site-parent-secondary"
+                <div class="columns small-12 medium-6 large-6 site-parent-secondary"
                      style=" background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/sites/wellness.png') ;
                              background-repeat: no-repeat ;
                              background-size: cover">
@@ -173,105 +169,54 @@ get_header();
                     <div class="site-child-1">
                         <p>
                             <span class="lead-description"><a href="http://www.wellness360.be">wellness360.be</a></span>
-                            <br >est un travaille dirrigé
-                            lors de mes études à l'ISL Saint-LaurentProsoc
-                            Il s'agit d'un annuaire fictifs de centres wellness. Site réalisé avec <u>Symfony 3</u>, le code se
-                            trouve sur <a href="https://github.com/jphNovitz/wellness">Github </a>
+                            <!--                            <br >est un travaille dirrigé-->
+                            <!--                            lors de mes études à l'ISL Saint-LaurentProsoc-->
+                            <!--                            Il s'agit d'un annuaire fictifs de centres wellness. Site réalisé avec <u>Symfony 3</u>, le code se-->
+                            <!--                            trouve sur -->
+                            <br/> Le code se trouve sur <a href="https://github.com/jphNovitz/wellness">Github </a>
 
                         </p>
                     </div>
                 </div>
-                <div
-                     class="columns small-12 medium-6 large-4 "
-                     style=" background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/sites/flat.png') ;
-                             background-repeat: no-repeat ;
-                             background-size: cover">
-                    a
+                <div class="columns small-12 medium-6 large-6 site-parent-secondary "
+                     style=" background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/sites/flat.png') ;">
+                    <div class="site-child-1">
+                        <p>
+                            <span class="lead-description"><a href="http://demos.jphnovitz.be/flat/">Flat demo page</a></span>
+                            <br/>est une exercice sur
+                            le 'flat design' réalisé en HTML.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="row" style=" background-color: white ; height: 25vh ;">
-                <div class="columns small-12 medium-6 large-4 site-parent-secondary"
-                     style=" background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/sites/crearchitex.png')" ;>
+            <div class="row site-parent-row" style=" background-color: white ; height: 25vh ; ">
+
+                <div class="columns small-12 medium-6 large-6 site-parent-secondary "
+                     style=" background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/sites/crearchitex.png');">
+                    <div class="site-child-1">
+                        <p>
+                            <span class="lead-description"><a href="http://demos.jphnovitz.be/crearchitex/">Crearchitex demo page</a></span>
+<!--                            est un site d'apprentissage du <u>html</u>, de <u>Symfony 2</u> et de la découpe design.-->
+                        </p>
+                    </div>
                 </div>
-                <div id="site-1"
-                     class="columns small-12 medium-6 large-4 "
-                     style=" background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/sites/allergens-basics.png') ;
-                             background-repeat: no-repeat ;
-                             background-size: cover">
-                    a
+
+                <div class="columns small-12 medium-6 large-6 site-parent-secondary "
+                     style=" background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/sites/allergens-basics.png') ;">
+                    <div class="site-child-1">
+                        <p>
+                            <span class="lead-description"><a href="http://demos.jphnovitz.be/clementine-allergies/">alergene basic</a></span>
+                            <!--                            est une démo Vue,js 2. La mise en relation entre des allergies et des aliments.-->
+                            <br /><a href="https://jphnovitz.github.io/allergens-basic/">documentation </a> et code
+                            <br /><a href="https://github.com/jphNovitz/allergens-basic">github</a>.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="row">
-        <div class="row text-center">
-            <div class="columns small-12 medium-6 large-4 ">
-                    <span
-                            class="span-image"
-                            style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/sites/laclementine_00.png')">
-                    </span>
-                <p class="m2">
-                    <strong><a href="https://sandwicherie.jphnovitz.be">sandwicherie.jphnovitz.be</a> </strong> était à
-                    la base mon travaile de fin d'études et le site d'une
-                    sandwhicherie de Saint-Nicolas (La Clémentine). Site réalisé avec <u>Symfony 4</u>, le code se
-                    trouve sur
-                    <a href="https://github.com/jphNovitz/sandwicherie">github</a>
-                </p>
-            </div>
-            <div class="columns small-12 medium-6 large-4">
-                    <span
-                            class="span-image"
-                            style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/sites/wellness.png')">
-                    </span>
-                <p class="m2">
-                    <strong><a href="http://www.wellness360.be">wellness360.be</a></strong> est un travaille dirrigé
-                    lors de mes études à l'ISL Saint-LaurentProsoc
-                    Il s'agit d'un annuaire fictifs de centres wellness. Site réalisé avec <u>Symfony 3</u>, le code se
-                    trouve sur <a href="https://github.com/jphNovitz/wellness">Github </a>
 
-                </p>
-            </div>
-            <div class="columns small-12 medium-6 large-4">
-                    <span
-                            class="span-image"
-                            style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/sites/flat.png')">
-                    </span>
-                <p class="m2">
-                    <strong><a href="http://demos.jphnovitz.be/flat/">Flat demo page</a></strong> est une exercice sur
-                    le 'flat design' réalisé en HTML.
-                </p>
-            </div>
-
-            <div class="columns small-12 medium-6 large-4">
-                    <span
-                            class="span-image"
-                            style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/sites/crearchitex.png')">
-                    </span>
-                <p class="m2">
-                    <strong><a href="http://demos.jphnovitz.be/crearchitex/">Crearchitex demo page</a></strong> est un
-                    site d'apprentissage du <u>html</u>,
-                    de <u>Symfony 2</u> et de la découpe design.
-                </p>
-            </div>
-
-            <div class="columns small-12 medium-6 large-4">
-                    <span
-                            class="span-image"
-                            style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/sites/allergens-basics.png')">
-                    </span>
-                <p class="m2">
-                    <strong><a href="http://demos.jphnovitz.be/clementine-allergies/">alergene basic</a></strong> est
-                    une démo Vue,js 2. La mise en relation entre des allergies et des aliments.
-                    <a href="https://jphnovitz.github.io/allergens-basic/">documentation </a> et code
-                    <a href="https://github.com/jphNovitz/allergens-basic">github</a>.
-
-                </p>
-            </div>
-
-
-        </div>
-    </div>
     <!--    <div class="row">-->
     <!---->
     <!--        <div class="columns m2" id="php">-->

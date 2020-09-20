@@ -11,7 +11,9 @@
   padding: 0 !important;
   background-color: white  ;
   background-repeat: no-repeat ;
-  background-size: cover
+  background-size: cover;
+
+  border: solid 2px rgba(225, 226, 227, .8) ;
 }
 .site-parent{
   height: 50vh;
@@ -33,7 +35,6 @@
   transition: top .4s ease-out;
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: nowrap;
 }
 
 .site-parent:hover .site-child-1,
