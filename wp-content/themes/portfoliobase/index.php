@@ -89,14 +89,20 @@ get_header();
         </div>
     </div>
 
-    <div class="row m2">
-        <div class="columns large-12">
+    <div id="my-envir-container"
+         class="row m2"
+         style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/jiffy-bg.png')" >
+        <div id="my-envir" class="columns large-12">
             <p class="lead text-center">
-                Mon evironnement de travail est <strong>Linux Ubuntu</strong>, j'utilise git pour la sauvegarde de mes
-                projets,
-                Twig avec Symfony, Blade avec Laravel, npm, yarn, gulp (sans être un expert).
-                Mes frameworks css favoris sont <strong>Bootstrap</strong> ,<strong>Semantic UI</strong>, <strong>Foundation</strong>
+                 <strong>Linux Ubuntu</strong> est mon environnement, Php Storm mon IDE, git est pour la  sauvegarde de mes projets.
             </p>
+            <p class="lead">Egalement:</p>
+            <ul class="lead">
+                <li><u>Twig</u> avec <em>Symfony</em>, <u>Blade</u> avec <em>Laravel</em></li>
+                <li><u>Bootstrap</u> ,<u>Semantic UI</u>, <u>Foundation</u> sont mes <em>frameworks css</em> favoris </li>
+            </ul>
+
+            <a href="https://facebook.com/jphNovitz" class="webicon linux">ubuntu</a>
         </div>
 
     </div>

@@ -1,5 +1,25 @@
 $(document).ready ( function () {
 
+    // jiffy appears
+    var interval = setInterval(function () {
+            if ($('#my-envir').is(':visible')) {
+
+                // clearInterval(interval);
+            }
+            // else {
+            //     // still hidden
+            //     if (Date.now() - startTime > maxTime) {
+            //         // hidden even after 'maxTime'. stop checking.
+            //         clearInterval(interval);
+            //     }
+            // }
+        },
+        100 // 0.1 second (wait time between checks)
+    );
+
+
+
+    // maybe remove
 const box = $('.after-box').width();
 const sitesContainer = $('.sites-items');
 const container = $('.sites-items').width();
