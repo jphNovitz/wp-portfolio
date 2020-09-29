@@ -40,71 +40,123 @@ get_header();
     <!--        </div>-->
     <!--    </div>-->
 
-    <div class="row">
-        <div class="columns small-12 large-12">
-            <div class="columns m2" id="php">
-                <h3>Le php et ses outils:</h3>
-            </div>
+    <!--   <div class="row">-->
+    <!--<!--        <div class="columns small-12 large-12">-->
+    <!--<!--            <div class="columns m2" id="php">-->
+    <!--<!--                <h3>Le php et ses outils:</h3>-->
+    <!--<!--            </div>-->
+    <!--<!--        </div>-->
+    <!--<!--    </div>-->
+
+    <!--<!--    <div class="row text-center">-->
+    <!--<!--        <div class="columns small-12 medium-6 large-3 ">-->
+    <!--<!--                    <span-->
+
+    <!--<!--                            class="span-image"-->
+    <!--<!--                            style="background-image: url('--><?php ////echo get_template_directory_uri(); ?><!--/*/assets/img/logo_symfony.png')">*/-->
+    <!--/*                    </span>*/-->
+
+    <!--/*            <p class="m2">*/-->
+    <!--/*                J'utilise le framework Symfony depuis la version deux et j'ai suivi les différentes évolutions*/-->
+
+    <!--/*                jusqu'à la version actuelle (5)*/-->
+    <!--/*            </p>*/-->
+    <!--/*        </div>*/-->
+    <!--/*        <div class="columns small-12 medium-6 large-3">*/-->
+    <!--/*                    <span*/-->
+    <!--/*                            class="span-image"*/-->
+    <!--/*                            style="background-image: url('*/--><?php ////echo get_template_directory_uri(); ?><!--/*/assets/img/logo_laravel.png')">*/-->
+    <!--/*                    </span>*/-->
+    <!--/*            <p class="m2">Pour un de mes employeurs j'ai été amené à utiliser Laravel. J'ai ensuite réalisé de*/-->
+    <!--/*                petits projet perso.</p>*/-->
+    <!--/*        </div>*/-->
+    <!--/*        <div class="columns small-12 medium-6 large-3">*/-->
+
+    <!--/*                    <span*/-->
+
+    <!--/*                            class="span-image"*/-->
+
+    <!--/*                            style="background-image: url('*/--><?php ////echo get_template_directory_uri(); ?><!--/*/assets/img/logo_wordpress.png')">*/
+    <!--/*                    </span>*/-->
+    <!--/*            <p class="m2">Wordpress est le cms php peut-être le plus utilisé dans le monde professionnel. Il est*/-->
+    <!--/*                impossible de passer à côté.*/-->
+    <!--/*                Ce portfolio est propulsé par wordpress.</p>*/-->
+    <!--/*        </div>*/-->
+    <!--/*        <div class="columns small-12 medium-6 large-3">*/-->
+    <!--/*                    <span*/-->
+    <!--/*                            class="span-image"*/-->
+    <!--/*                            style="background-image: url('*/--><?php ////echo get_template_directory_uri(); ?><!--/*/assets/img/logo_prestashop.png')">*/-->
+    <!--/*                    </span>*/-->
+    <!--/*            <p class="m2">*/-->
+    <!--/*                Prestashop est le CMS E-Commerce incontournable.*/-->
+    <!--/*            </p>*/-->
+    <!--/*        </div>*/-->
+    <!--/*        <div class="columns small-12 large-3">*/-->
+    <!--/**/
+    <!--/*        </div>*/-->
+    <!--/*    </div>*/-->
+
+    <div class="row spread-parent m2">
+        <div class="colums mobile-4 large-4 text-center align-middle spread-child">
+            <h2>Le PHP et <br/>Frameworks</h2>
         </div>
-    </div>
-    <div class="row text-center">
-        <div class="columns small-12 medium-6 large-3 ">
-                    <span
-                            class="span-image"
-                            style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/logo_symfony.png')">
-                    </span>
-            <p class="m2">
-                J'utilise le framework Symfony depuis la version deux et j'ai suivi les différentes évolutions
+        <div class="colums mobile-2 large-2 text-center spread-child">
+            <p class="">
+                J'utilise le framework Symfony depuis la version deux et j'ai suivi les différentes évolutions*/
                 jusqu'à la version actuelle (5)
             </p>
+            <span
+                    class="span-image"
+                    style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/logo_symfony.png')">
+                                    </span>
         </div>
-        <div class="columns small-12 medium-6 large-3">
-                    <span
-                            class="span-image"
-                            style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/logo_laravel.png')">
-                    </span>
-            <p class="m2">Pour un de mes employeurs j'ai été amené à utiliser Laravel. J'ai ensuite réalisé de
+        <div class="colums mobile-2 large-2 text-center spread-child">
+            <span
+                    class="span-image"
+                    style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/logo_laravel.png')">
+            </span>
+            <p class="">Pour un de mes employeurs j'ai été amené à utiliser Laravel. J'ai ensuite réalisé de
                 petits projet perso.</p>
         </div>
-        <div class="columns small-12 medium-6 large-3">
-                    <span
-                            class="span-image"
-                            style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/logo_wordpress.png')">
-                    </span>
-            <p class="m2">Wordpress est le cms php peut-être le plus utilisé dans le monde professionnel. Il est
+        <div class="colums mobile-2 large-2 text-center spread-child">
+            <span
+                    class="span-image"
+                    style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/logo_wordpress.png')">
+                                </span>
+            <p class="">Wordpress est le cms php peut-être le plus utilisé dans le monde professionnel. Il est
                 impossible de passer à côté.
                 Ce portfolio est propulsé par wordpress.</p>
         </div>
-        <div class="columns small-12 medium-6 large-3">
-                    <span
-                            class="span-image"
-                            style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/logo_prestashop.png')">
-                    </span>
-            <p class="m2">
+        <div class="colums mobile-2 large-2 text-center spread-child">
+            <span
+                    class="span-image"
+                    style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/logo_prestashop.png')">
+            </span>
+            <p class="">
                 Prestashop est le CMS E-Commerce incontournable.
             </p>
         </div>
-        <div class="columns small-12 large-3">
-
-        </div>
     </div>
+
 
     <div id="my-envir-container"
          class="row m2"
-         style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/jiffy-bg.png')" >
+         style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/jiffy-bg.png')">
         <div id="my-envir" class="columns large-12">
             <p class="lead text-center">
-                 <strong>Linux Ubuntu</strong> est mon environnement, Php Storm mon IDE, git est pour la  sauvegarde de mes projets.
+                <strong>Linux Ubuntu</strong> est mon environnement, Php Storm mon IDE, git est pour la sauvegarde de
+                mes projets.
             </p>
             <p class="lead">Egalement:</p>
             <ul class="lead">
                 <li><u>Twig</u> avec <em>Symfony</em>, <u>Blade</u> avec <em>Laravel</em></li>
-                <li><u>Bootstrap</u> ,<u>Semantic UI</u>, <u>Foundation</u> sont mes <em>frameworks css</em> favoris </li>
+                <li><u>Bootstrap</u> ,<u>Semantic UI</u>, <u>Foundation</u> sont mes <em>frameworks css</em> favoris
+                </li>
             </ul>
 
             <a href="https://facebook.com/jphNovitz" class="webicon linux">ubuntu</a>
         </div>
-
+        <div class="text-center back" id="toto"><a href=""><i class="fi-arrow-up size-72"></i></a></div>
     </div>
 
     <div class="row">
@@ -146,7 +198,6 @@ get_header();
 
 
     </div>
-
 
 
     <div class="row m2" style="background-color: rgba(225, 226, 227, .95) ;">
@@ -202,7 +253,7 @@ get_header();
                     <div class="site-child-1">
                         <p>
                             <span class="lead-description"><a href="http://demos.jphnovitz.be/crearchitex/">Crearchitex demo page</a></span>
-<!--                            est un site d'apprentissage du <u>html</u>, de <u>Symfony 2</u> et de la découpe design.-->
+                            <!--                            est un site d'apprentissage du <u>html</u>, de <u>Symfony 2</u> et de la découpe design.-->
                         </p>
                     </div>
                 </div>
@@ -213,8 +264,8 @@ get_header();
                         <p>
                             <span class="lead-description"><a href="http://demos.jphnovitz.be/clementine-allergies/">alergene basic</a></span>
                             <!--                            est une démo Vue,js 2. La mise en relation entre des allergies et des aliments.-->
-                            <br /><a href="https://jphnovitz.github.io/allergens-basic/">documentation </a> et code
-                            <br /><a href="https://github.com/jphNovitz/allergens-basic">github</a>.
+                            <br/><a href="https://jphnovitz.github.io/allergens-basic/">documentation </a> et code
+                            <br/><a href="https://github.com/jphNovitz/allergens-basic">github</a>.
                         </p>
                     </div>
                 </div>

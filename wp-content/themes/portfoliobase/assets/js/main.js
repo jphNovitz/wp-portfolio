@@ -1,44 +1,41 @@
-$(document).ready ( function () {
+$(document).ready(function () {
+    $('#my-envir').each(function () {
+        $(this).mouseover(function () {
+            $('.back').toggleClass('move-front');
+        })
+        $(this).mouseout(function () {
+            $('.back').toggleClass('move-front');
+        })
+    })
+});
 
-    // jiffy appears
-    var interval = setInterval(function () {
-            if ($('#my-envir').is(':visible')) {
+const spreadTarget = document.querySelectorAll(".spread-child");
+var toggleSpread = 0
+spreadTarget[0].addEventListener('click', () => {
+    if (!toggleSpread) {
+        spreadTarget[1].style.transform = 'translateY(-33vh)';
+        spreadTarget[2].style.transform = 'translateX(33vw)';
+        spreadTarget[3].style.transform = 'translateY(33vh)';
+        spreadTarget[4].style.transform = 'translateX(-33vw)';
 
-                // clearInterval(interval);
-            }
-            // else {
-            //     // still hidden
-            //     if (Date.now() - startTime > maxTime) {
-            //         // hidden even after 'maxTime'. stop checking.
-            //         clearInterval(interval);
-            //     }
-            // }
-        },
-        100 // 0.1 second (wait time between checks)
-    );
+        for (let i = 1; i <= 4; i++) {
+            let element = spreadTarget[i].getElementsByTagName('p')[0];
+            // element.style.opacity = 1
+            element.style.display = 'block'
+        }
+        toggleSpread = 1;
+    } else {
+        spreadTarget[1].style.transform = 'translateY(0)';
+        spreadTarget[2].style.transform = 'translateX(0)';
+        spreadTarget[3].style.transform = 'translateY(0)';
+        spreadTarget[4].style.transform = 'translateX(0)';
 
+        for (let i = 1; i <= 4; i++) {
+            let element = spreadTarget[i].getElementsByTagName('p')[0];
+            element.style.display = 'none';
+            // element.style.transform = 'none';
+        }
+        toggleSpread = 0;
+    }
 
-
-    // maybe remove
-const box = $('.after-box').width();
-const sitesContainer = $('.sites-items');
-const container = $('.sites-items').width();
-const translate = container- (2*box);
-console.log(translate);
-
-    var padding = 0 ;
-    $(document).on ("click", "#move-left", function (event) {
-        event.stopPropagation();
-        padding -= 23.4;
-        sitesContainer.css('left', padding+'vw');
-    });
-    $(document).on ("click", "#move-right", function (event) {
-        event.stopPropagation();
-        
-      /* let parent = $(event.target).parents('.after-box');
-        console.log($(sitesContainer).width());
-        let toto = $(parent).width();*/
-        padding += 23.4;
-        sitesContainer.css('left', padding+'vw');
-    });
 });
