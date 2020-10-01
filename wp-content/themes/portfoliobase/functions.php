@@ -4,6 +4,9 @@
  * Styles
  */
 
+
+
+
 if (!function_exists('base_enqueue_styles')) {
     function base_enqueue_styles()
     {
@@ -49,5 +52,5 @@ function the_presentation(){
     ];
        
 }
-
+require get_template_directory() . '/inc/jph_admin.php';
 ?>

@@ -47,9 +47,11 @@
     </div>
     <div id="" class="columns small-12 large-6  text-center">
 
+<!--        <p>--><?php //echo esc_attr__(get_option('pitch')); ?><!--</p>-->
         <p class="lead">
             Développeur Php (<span class=""> Symfony</span>, Laravel, Prestashop) et Javascript (jQuery, Vue.js) disponible immédiatement.
         </p>
+
         <p class="lead">N'hesitez pas à me <a href="mailto:hello@jphnovitz.be" > contacter </a>pour ce que je sais faire (Site vitrines, Ecommerce, Api Rest, application Vue.js, socket.io) ou pour m'apporter
             une nouvelle expérience dans ce que vous faite.
 <!--            Je suis un développeur WEB made in LIEGE, diplômé-->

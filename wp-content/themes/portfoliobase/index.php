@@ -96,7 +96,7 @@ get_header();
     <!--/*        </div>*/-->
     <!--/*    </div>*/-->
 
-    <div class="row spread-parent m2">
+    <div id="php" class="row spread-parent m2">
         <div class="colums mobile-4 large-4 text-center align-middle spread-child">
             <h2>Le PHP et <br/>Frameworks</h2>
         </div>
@@ -156,18 +156,18 @@ get_header();
 
             <a href="https://facebook.com/jphNovitz" class="webicon linux">ubuntu</a>
         </div>
-        <div class="text-center back" id="toto"><a href=""><i class="fi-arrow-up size-72"></i></a></div>
+        <div class="text-center back" ><a href="#php"><i class="fi-arrow-up size-72"></i></a></div>
     </div>
 
     <div class="row">
-        <div class="columns small-12 large-12">
-            <div class="columns m2" id="js">
+        <div class="columns small-12 large-12 text-center m2 " id="js">
+<!--            <div class="columns m2" id="js">-->
                 <h3>Le javascript est incontournable dans web moderne</h3>
-            </div>
+<!--            </div>-->
         </div>
-    </div>
-    <div class="row text-center">
-        <div class="columns small-12 medium-6 large-2 large-offset-3 medium-offset-3 ">
+<!--    </div>-->
+<!--    <div class="row text-center">-->
+        <div class="columns small-12 medium-6 large-2 large-offset-3 medium-offset-3  flex-container flex-dir-column">
                     <span
                             class="span-image"
                             style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/logo_js.png')">
@@ -176,7 +176,7 @@ get_header();
                 Le <strong>vanilla JS</strong> évolue sans cesse et est performant sans utiliser de librairie
             </p>
         </div>
-        <div class="columns small-12 medium-6 large-2">
+        <div class="columns small-12 medium-6 large-2  flex-container flex-dir-column">
                     <span
                             class="span-image"
                             style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/logo_jquery.png')">
@@ -186,7 +186,7 @@ get_header();
                 qu'il faut connaitre cette libraire
             </p>
         </div>
-        <div class="columns small-12 medium-2 large-2">
+        <div class="columns small-12 medium-2 large-2  flex-container flex-dir-column">
                     <span
                             class="span-image"
                             style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/logo_vuejs.png')">
