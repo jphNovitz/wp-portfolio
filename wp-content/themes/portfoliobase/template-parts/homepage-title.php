@@ -18,16 +18,16 @@
         <div class="top-bar-left ">
             <ul class="dropdown vertical medium-horizontal  menu " data-dropdown-menu>
                 <li class="menu-text">Développeur Web</li>
-                <li><a href="#">Accueil</a></li>
+                <li><a href="/">Accueil</a></li>
                 <li><a href="#">Compétences</a>
                     <ul class="menu">
                         <li style="background-color: #fff"><a href="/#php">PHP</a></li>
                         <li style="background-color: #fff"><a href="/#js">Javascript</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Expérience</a></li>
-                <li><a href="#">Réalisation</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#demos">Réalisation</a></li>
+                <li><a href="#experience_pro">Expérience</a></li>
+                <li><a href="#footer">Contact</a></li>
             </ul>
         </div>
     </div>

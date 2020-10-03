@@ -20,7 +20,7 @@ function jph_admin_page()
         110); //position
     add_submenu_page('portfolio_configuration',
         'Portfolio Theme Options', //menu_title
-        'Portfolio configuration',
+        'General',
         'manage_options', //capability
         'portfolio_configuration', //menu slug
         'portfolio_admin_main'); //function

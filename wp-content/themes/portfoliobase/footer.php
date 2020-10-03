@@ -3,7 +3,7 @@
 <!--<script src="foundation-portfolio/node_modules/what-input/dist/what-input.js"></script>-->
 <!--<script src="foundation-portfolio/node_modules/foundation-sites/dist/js/foundation.js"></script>-->
 <!--<script src="assets/js/app.js"></script>-->
-<footer>
+<footer id="footer">
 <div class="grid-x grid-padding-x grid-padding-y m2">
     <div class="cell medium-6 large-3 text-center medium-text-left">
         <h5>Contact</h5>
