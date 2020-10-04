@@ -1,5 +1,4 @@
 
-//to do modifier le code pour faire agrandir celui qui est actif, cfr wes
 
 <section class="row m2" style="background-color: rgba(225, 226, 227, .95) ;" >
     <div class="columns small-12" id="demos">
