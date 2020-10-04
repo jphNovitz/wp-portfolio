@@ -1,6 +1,6 @@
 
 
-<section class="row m2" style="background-color: rgba(225, 226, 227, .95) ;" >
+<section class="row m2" style="background-color: rgba(225, 226, 227, .95) ; margin-bottom: 10rem;" >
     <div class="columns small-12" id="demos">
         <h3>Réalisations et démos</h3>
     </div>
@@ -9,8 +9,7 @@
                  '<?php echo get_template_directory_uri(); ?>/assets/img/sites/laclementine_00.png') ;">
         <div class="text-center site-child-1">
             <h3><a href="https://sandwicherie.jphnovitz.be">Sandwicherie</a></h3>
-            <p>A
-                la base mon travaile de fin d'études et le site d'une
+            <p>A la base mon travaile de fin d'études et le site d'une
                 sandwhicherie de Saint-Nicolas (La Clémentine). Site réalisé avec <u>Symfony 4</u>.
             </p>
             <p>le code se trouve sur <a href="https://github.com/jphNovitz/sandwicherie">github</a></p>
