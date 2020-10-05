@@ -1,6 +1,6 @@
-<section  class="row spread-parent m2">
+<section id="php"  class="row spread-parent m2">
     <div class="colums small-12 large-4 text-center align-middle spread-child">
-        <h2>Le PHP et <br class="show-for-large-only"/>Frameworks</h2>
+        <h2>Le PHP et <br class="show-for-large-medium"/>Frameworks</h2>
     </div>
     <article class="colums small-12 large-2 text-center spread-child">
         <p class="">

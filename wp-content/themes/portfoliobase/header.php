@@ -26,8 +26,9 @@
 
 <body>
 <?php
+get_template_part('template-parts/nav/nav');
 if (is_front_page()) get_template_part('template-parts/homepage-title');
-else get_template_part('template-parts/site-title');?>
+//else get_template_part('template-parts/site-title');?>
 <?php //get_template_part('template-parts/nav-left'); ?>
 
        

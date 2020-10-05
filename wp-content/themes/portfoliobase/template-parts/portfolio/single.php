@@ -45,14 +45,14 @@ while ($site->have_posts()) : $site->the_post();
     </div>
 
     <div class="row m2">
-        <div class="small-6 large-2 large-offset-3 portfolio-terms">
+        <div class="small-5 small-offset-1 large-2 large-offset-3 portfolio-terms">
             <ul class="menu simple">
                 <?php foreach ($langageTerms as $language): ?>
                     <li><?php echo '#'.$language->name ?> </li>
                 <?php endforeach; ?>
             </ul>
         </div>
-        <div class="small-6 large-2 large-offset-2 portfolio-terms">
+        <div class="small-4 small-offset-1 large-2 large-offset-2 portfolio-terms">
             <ul class="menu simple">
                 <?php foreach ($technoTerms as $techno): ?>
                     <li><?php echo '#'.$techno->name ?> </li>

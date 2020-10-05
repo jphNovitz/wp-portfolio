@@ -13,7 +13,6 @@
             </li>
         </ul>
 
-        <a href="https://facebook.com/jphNovitz" class="webicon linux">ubuntu</a>
     </div>
     <div class="text-center back" ><a href="#php"><i class="fi-arrow-up size-72"></i></a></div>
 </div>

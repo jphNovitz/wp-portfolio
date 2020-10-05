@@ -24,7 +24,7 @@
 ?>
 
 <?php
-    get_template_part('template-parts/single');
+    get_template_part('template-parts/portfolio/single');
 ?>
 
 <?php

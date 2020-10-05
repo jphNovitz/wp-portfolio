@@ -46,7 +46,7 @@
     </div>
     <div class="cell medium-6 large-3">
 
-        <card class="card text-center">
+        <card class="card ">
             <div class="card-divider">
                 <h3>La Clémentine</h3>
             </div>
