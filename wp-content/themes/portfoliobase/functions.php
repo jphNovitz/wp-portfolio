@@ -32,6 +32,7 @@ if (!function_exists('base_enqueue_styles')) {
 
 add_action('wp_insert_post', 'wpc_champs_personnalises_defaut');
 
+
 function wpc_champs_personnalises_defaut($post_id)
 {
     if ($_GET['post_type'] != 'page') {
@@ -51,6 +52,10 @@ function the_presentation()
     ];
 
 }
+
+ add_theme_support( 'post-thumbnails');
+ add_theme_support( 'thumbnails');
+
 
 require get_template_directory() . '/inc/jph_admin.php';
 ?>

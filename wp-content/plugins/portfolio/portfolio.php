@@ -18,7 +18,7 @@ class Portfolio {
     public function __construct(){
         add_action('init', [$this, 'portfolio_taxonomy']);
         add_action('init', [$this, 'create_portfolio_custom_type']);
-        add_post_type_support('portfolio', array('page', 'excerpt')); // excerpt are disable by default
+        add_post_type_support('portfolio', array('page', 'excerpt',  'thumbnail')); // excerpt are disable by default
         add_action('init', [$this, 'add_fields_portfolio']);
         add_action('add_meta_boxes', [$this, 'portfolio_boxes']);
         add_action('save_post', [$this, 'save_metaboxes']);
