@@ -32,7 +32,7 @@ $x = 0;
 
         <?php else:
             if ($x == 1 || $x == 3):
-                echo "<div class='columns small-12 medium-6 large-8 '>";
+                if ($x == 1)  echo "<div class='columns small-12 medium-6 large-8 '>";
                 echo "<div class='row site-parent-row' style='background-color: white ; height: 25vh ; '>";
             endif; ?>
 
@@ -46,6 +46,7 @@ $x = 0;
             </article>
             <?php if ($x == 2 || $x == 4):
             echo "</div>";
+            if ($x == 4) echo "</div>";
         endif; ?>
         <?php
 
