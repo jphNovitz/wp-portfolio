@@ -3,7 +3,8 @@
 $site = new  WP_Query([
     'post_type' => 'portfolio',
     'orderby' => 'rand',
-    'order' => 'ASC'
+    'order' => 'ASC',
+    'posts_per_page' => '5'
 ]);
 $x = 0;
 ?>
@@ -46,7 +47,7 @@ $x = 0;
             </article>
             <?php if ($x == 2 || $x == 4):
             echo "</div>";
-            if ($x == 4) echo "</div>";
+            if ($x == 5) echo "</div>";
         endif; ?>
         <?php
 
