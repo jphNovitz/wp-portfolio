@@ -111,8 +111,16 @@ color: $raspberry-50;
   text-transform: capitalize;
 }
 
+.text-white a:link,
+.text-white a:hover,
+.text-white a:visited,
+.text-white a:active,
 .text-white{
   color: $white !important;
+}
+
+.bg-secondary{
+  background-color: $secondary-color;
 }
 
 .button.rounded{
@@ -149,7 +157,10 @@ footer {
   background-color: $light-gray;
 }
 
-
+#experience img{
+  width: 100%;
+  background-color: $white;
+}
 @media screen and (min-width: 1020px) {
 
   .spread-parent {
