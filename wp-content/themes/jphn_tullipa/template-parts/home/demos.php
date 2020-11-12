@@ -5,7 +5,7 @@ $site = new  WP_Query([
     'orderby' => 'rand',
     'order' => 'ASC',
     'status' => 'published',
-    'posts_per_page' => '5'
+    'posts_per_page' => '6'
 ]);
 $x = 0;
 ?>
