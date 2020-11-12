@@ -41,7 +41,7 @@ $x = 0;
             <?php
 //if ($x == 2 ):
 //                echo "</div>";
-            if ($x === 5) echo "</div>";
+            if ($x === 6) echo "</div>";
 //            endif;
             ?>
         <?php
