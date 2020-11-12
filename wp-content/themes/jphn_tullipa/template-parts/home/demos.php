@@ -23,7 +23,7 @@ $x = 0;
     <?php
     while ($site->have_posts()) :
         $site->the_post();
-        var_dump($x);
+
         if ($x === 0):
             echo '<div class="expanded row">';
         else:
@@ -31,6 +31,7 @@ $x = 0;
                 echo '</div>';
                 echo '<div class="row">';
             endif;
+            var_dump($x);
             ?>
             <article class="columns small-offset-1 small-5  medium-offset-1 medium-5 large-offset-1 large-3 card"
                      style="background-image: url(
