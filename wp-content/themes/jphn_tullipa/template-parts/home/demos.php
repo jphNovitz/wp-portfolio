@@ -27,7 +27,7 @@ $x = 0;
         if ($x === 0):
             echo '<div class="expanded row">';
         ?>
-            <article class="columns small-offset-1 small-5  medium-offset-1 medium-5 large-offset-1 large-3 card"
+            <article class="columns small-5 medium-5  large-3 card"
                      style="background-image: url(
                              '<?php echo get_the_post_thumbnail_url(get_the_ID(), 'medium'); ?>'">
                 <div class="card-divider">
