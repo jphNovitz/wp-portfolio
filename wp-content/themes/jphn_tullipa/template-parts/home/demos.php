@@ -4,6 +4,7 @@ $site = new  WP_Query([
     'post_type' => 'portfolio',
     'orderby' => 'rand',
     'order' => 'ASC',
+    'status' => 'published',
     'posts_per_page' => '5'
 ]);
 $x = 0;
@@ -22,11 +23,12 @@ $x = 0;
     <?php
     while ($site->have_posts()) :
     $site->the_post();
-    if ($x == 0):
+    if ($x === 0):
         echo '<div class="expanded row">';
     else:
-    if ($x == 4):
-        echo '<div class="expanded row">';
+    if ($x === 3):
+        echo '</div>';
+        echo '<div class="row">';
     endif;
     ?>
     <article class="columns small-offset-1 small-5  medium-offset-1 medium-5 large-offset-1 large-3 card"
@@ -49,10 +51,11 @@ $x = 0;
         </div>
     </article>
 
-            <?php if ($x == 2 ):
-                echo "</div>";
+            <?php
+//if ($x == 2 ):
+//                echo "</div>";
                 if ($x == 5) echo "</div>";
-            endif; ?>
+//            endif; ?>
             <?php
 
             endif;
