@@ -28,28 +28,10 @@ $x = 0;
             echo '<div class="expanded row" style="justify-content: space-evenly;">';
 
         ?>
-            <article class="columns small-12 medium-5  large-3 card"
-                     style="background-image: url(
-                             '<?php echo get_the_post_thumbnail_url(get_the_ID(), 'medium'); ?>'">
-                <div class="card-divider">
-                    <h4><?php the_title(); ?></h4>
-    <br/><a href="<?php echo get_post_permalink(); ?>">
-        <i class="fi-arrow-right link size-72"></i>
-    </a>
-    <!--                            <a href="--><?php //echo get_post_permalink();
-    ?><!--">--><?php //the_title();
-    ?><!--</a>-->
-    <!--
-<p>-->
-    <!--                                --><?php //the_excerpt();
-    ?>
-    <!--                            </p>-->
-    <!--            <p>le code se trouve sur <a href="https://github.com/jphNovitz/sandwicherie">github</a></p>-->
-    </div>
-    </article>
+
        <?php
        else:
-            if ($x === 3):
+            if ($x === 2):
                 echo '</div>';
                 echo '<div class="row"  style="justify-content: space-evenly;">';
             endif;
