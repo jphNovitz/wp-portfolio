@@ -25,7 +25,7 @@ $x = 0;
         $site->the_post();
 
         if ($x === 0):
-            echo '<div class="expanded row" style="justify-content: space-evenly;">';
+            echo '<div class="expanded row m2" style="justify-content: space-evenly;">';
 
         ?>
 
@@ -33,7 +33,7 @@ $x = 0;
        else:
             if ($x === 3):
                 echo '</div>';
-                echo '<div class="row"  style="justify-content: space-evenly;">';
+                echo '<div class="row m2"  style="justify-content: space-evenly;">';
             endif;
 
             ?>
