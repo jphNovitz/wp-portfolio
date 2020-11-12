@@ -25,7 +25,7 @@ $x = 0;
         $site->the_post();
 
         if ($x === 0):
-            echo '<div class="expanded row">';
+            echo '<div class="expanded row" style="justify-content: space-evenly;">';
         ?>
             <article class="columns small-5 medium-5  large-3 card"
                      style="background-image: url(
@@ -50,9 +50,8 @@ $x = 0;
     else:
             if ($x === 3):
                 echo '</div>';
-                echo '<div class="row">';
+                echo '<div class="row"  style="justify-content: space-evenly;">';
             endif;
-            var_dump($x);
             ?>
             <article class="columns small-offset-1 small-5  medium-offset-1 medium-5 large-offset-1 large-3 card"
                      style="background-image: url(
@@ -77,7 +76,7 @@ $x = 0;
             <?php
 //if ($x == 2 ):
 //                echo "</div>";
-            if ($x == 5) echo "</div>";
+            if ($x === 5) echo "</div>";
 //            endif;
             ?>
         <?php
