@@ -15,7 +15,7 @@
 
         <div class="columns small-3 small-offset-1 medium-1"><img src="<?php echo get_template_directory_uri();?>/assets/img/entreprises/logo_produweb.jpg" /></div>
         <div class="columns small-3 small-offset-1 medium-1"><img src="<?php echo get_template_directory_uri();?>/assets/img/entreprises/logo_bugiweb.webp" /></div>
-        <div class="columns small-3 "><img src="<?php echo get_template_directory_uri();?>/assets/img/entreprises/logo_bugiweb.png" /></div>
+        <div class="columns small-3 medium-1"><img src="<?php echo get_template_directory_uri();?>/assets/img/entreprises/logo_bugiweb.png" /></div>
 
     </div>
 </section>
