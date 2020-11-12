@@ -31,7 +31,7 @@ $x = 0;
 
        <?php
        else:
-            if ($x === 2):
+            if ($x === 3):
                 echo '</div>';
                 echo '<div class="row"  style="justify-content: space-evenly;">';
             endif;
