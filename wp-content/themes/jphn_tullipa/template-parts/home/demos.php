@@ -26,7 +26,7 @@ $x = 0;
 
         if ($x === 0):
             echo '<div class="expanded row" style="justify-content: space-evenly;">';
-        echo $x;
+
         ?>
             <article class="columns small-12 medium-5  large-3 card"
                      style="background-image: url(
@@ -47,14 +47,45 @@ $x = 0;
     <!--            <p>le code se trouve sur <a href="https://github.com/jphNovitz/sandwicherie">github</a></p>-->
     </div>
     </article>
-<?php
-    else:
+       <?php
+       else:
             if ($x === 3):
                 echo '</div>';
                 echo '<div class="row"  style="justify-content: space-evenly;">';
             endif;
-        echo $x;
+
             ?>
+<!--            <article class="columns small-12  medium-offset-1 medium-5 large-offset-1 large-3 card"-->
+<!--                     style="background-image: url(-->
+<!--                             '--><?php //echo get_the_post_thumbnail_url(get_the_ID(), 'medium'); ?>/*'">*/
+/*                <div class="card-divider">*/
+/*                    <h4>*/<?php //the_title(); ?><!--</h4>-->
+<!--                    <br/><a href="--><?php //echo get_post_permalink(); ?><!--">-->
+<!--                        <i class="fi-arrow-right link size-72"></i>-->
+<!--                    </a>-->
+<!--                    <!--                            <a href="-->--><?php ////echo get_post_permalink();
+//                    ?><!--<!--">-->--><?php ////the_title();
+//                    ?><!--<!--</a>-->-->
+<!--                    <!---->
+<!--        <p>-->-->
+<!--                    <!--                                -->--><?php ////the_excerpt();
+//                    ?>
+<!--                    <!--                            </p>-->-->
+<!--                    <!--            <p>le code se trouve sur <a href="https://github.com/jphNovitz/sandwicherie">github</a></p>-->-->
+<!--                </div>-->
+<!--            </article>-->
+
+            <?php
+//if ($x == 2 ):
+//                echo "</div>";
+            if ($x === 5) echo "</div>";
+//            endif;
+            ?>
+        <?php
+
+        endif;
+        ?>
+
             <article class="columns small-12  medium-offset-1 medium-5 large-offset-1 large-3 card"
                      style="background-image: url(
                              '<?php echo get_the_post_thumbnail_url(get_the_ID(), 'medium'); ?>'">
@@ -76,14 +107,6 @@ $x = 0;
             </article>
 
             <?php
-//if ($x == 2 ):
-//                echo "</div>";
-            if ($x === 5) echo "</div>";
-//            endif;
-            ?>
-        <?php
-
-        endif;
         $x++;
     endwhile;
     ?>
