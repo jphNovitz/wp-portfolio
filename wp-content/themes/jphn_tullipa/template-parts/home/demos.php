@@ -26,6 +26,7 @@ $x = 0;
 
         if ($x === 0):
             echo '<div class="expanded row" style="justify-content: space-evenly;">';
+        echo $x;
         ?>
             <article class="columns small-12 medium-5  large-3 card"
                      style="background-image: url(
@@ -52,6 +53,7 @@ $x = 0;
                 echo '</div>';
                 echo '<div class="row"  style="justify-content: space-evenly;">';
             endif;
+        echo $x;
             ?>
             <article class="columns small-12  medium-offset-1 medium-5 large-offset-1 large-3 card"
                      style="background-image: url(
