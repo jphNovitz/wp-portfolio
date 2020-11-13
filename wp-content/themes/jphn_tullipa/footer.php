@@ -28,7 +28,7 @@
     </div>
     <div class="cell medium-6 large-3 text-center medium-text-left">
         <h5 class="big lead text-white">
-            liens et demos
+            liens et demos 
         </h5>
         <ul class="menu simple ">
             <li><a href="https://sandwicherie.jphnovitz.be/">sandwicherie</a> </li>

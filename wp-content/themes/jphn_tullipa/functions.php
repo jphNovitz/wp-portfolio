@@ -13,7 +13,7 @@ if (!function_exists('base_enqueue_styles')) {
         wp_enqueue_style('style', get_stylesheet_directory_uri() . '/assets/css/app.css');
         wp_enqueue_style('webicons', get_stylesheet_directory_uri() . '/assets/webicons.css');
         wp_enqueue_style('ficons', get_stylesheet_directory_uri() . '/assets/foundation-icons.css');
-//        wp_enqueue_style( 'style', get_stylesheet_directory_uri().'/assets/css/style.css' );    
+//        wp_enqueue_style( 'style', get_stylesheet_directory_uri().'/assets/css/style.css' );     
         wp_enqueue_script('jquery', get_stylesheet_directory_uri() . './foundation-portfolio/node_modules/jquery/dist/jquery.min.js', [], true, false);  
     
         wp_enqueue_script('javascript', get_stylesheet_directory_uri() . '/assets/js/main.js', [], true, true);

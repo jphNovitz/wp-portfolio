@@ -1,7 +1,6 @@
 <?php
 get_header();
-?>
-
+?> 
 <?php require_once (get_template_directory().'/template-parts/home/for-what.php'); ?>
 <?php require_once (get_template_directory().'/template-parts/home/demos.php'); ?>
 <?php //require_once (get_template_directory().'/template-parts/home/envir.php'); ?>
