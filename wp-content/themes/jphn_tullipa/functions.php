@@ -15,14 +15,14 @@ if (!function_exists('base_enqueue_styles')) {
         wp_enqueue_style('ficons', get_stylesheet_directory_uri() . '/assets/foundation-icons.css');
 //        wp_enqueue_style( 'style', get_stylesheet_directory_uri().'/assets/css/style.css' );
         wp_enqueue_script('javascript', get_stylesheet_directory_uri() . '/assets/js/main.js', [], true, true);
-        wp_enqueue_script('what-input', get_stylesheet_directory_uri() . '/foundation-portfolio/node_modules/what-input/dist/what-input.min.js', array(), null);
-        wp_enqueue_script('foundation', get_stylesheet_directory_uri() . '/foundation-portfolio/node_modules/foundation-sites/dist/js/foundation.js', array(), null);
+        wp_enqueue_script('what-input', get_stylesheet_directory_uri() . '/foundation-portfolio/node_modules/what-input/dist/what-input.min.js', array(), null, true, true);
+        wp_enqueue_script('foundation', get_stylesheet_directory_uri() . '/foundation-portfolio/node_modules/foundation-sites/dist/js/foundation.js', array(), true, true);
 //        wp_enqueue_script('javascript', get_stylesheet_directory_uri().'/assets/js/app.js');
         wp_enqueue_script('app', get_stylesheet_directory_uri() . '/assets/js/app.js');
         //puzzle
         wp_enqueue_style('puzzlestyle', get_stylesheet_directory_uri() . '/assets/css/puzzle/puzzle.css', [], false, false);
-        wp_enqueue_script('puzzle', get_stylesheet_directory_uri() . '/assets/js/puzzle/puzzle.js', [], false, true);
-        wp_enqueue_script('modernizer', get_stylesheet_directory_uri() . '/assets/js/modernizr-custom.js', [], false, true);
+        wp_enqueue_script('puzzle', get_stylesheet_directory_uri() . '/assets/js/puzzle/puzzle.js', [], true, true);
+        wp_enqueue_script('modernizer', get_stylesheet_directory_uri() . '/assets/js/modernizr-custom.js', [], true, true);
         //
 
     }
