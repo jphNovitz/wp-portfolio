@@ -1,0 +1,45 @@
+.single-title{
+  //background-color: rgb(221, 225, 227);
+  background-color: rgb(227, 227, 229);
+  color: rgba(155, 115, 177, 1);
+  //background-color: rgba(155, 115, 177, .5);
+  //min-height: 71vh;
+  //letter-spacing: .5rem;
+  //word-spacing: 2rem;
+  overflow-wrap: break-word;
+}
+.single-title h2{
+  text-transform: uppercase;
+  padding: 1.5rem 0;
+  font-size: 2.5rem;
+  font-weight: bolder;
+
+}
+
+.portfolio-terms{
+  border: none;
+}
+.portfolio-terms ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 1020px) {
+  .single-title{
+
+  }
+  .single-title h2 {
+    font-size: 6rem;
+    letter-spacing: .3rem;
+    word-spacing: 1.3rem;
+  }
+
+  .portfolio-terms{
+    border: solid 1px;
+    padding: 1rem;
+    border-color: lightgray;
+    border-radius: 20%;
+  }
+}
