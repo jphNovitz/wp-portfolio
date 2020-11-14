@@ -30,8 +30,6 @@ if (!function_exists('base_enqueue_styles')) {
     }
 
     add_action('wp_enqueue_scripts', 'base_enqueue_styles');
-    add_filter('style_loader_tag', 'my_style_loader_tag_filter');
-
 
 }
 
