@@ -9,13 +9,13 @@
     </div>
     <div class="row m2 align-middle">
         <div class="columns small-3 medium-1 "><img src="<?php echo get_template_directory_uri();?>/assets/img/entreprises/logo_isl.png" /></div>
-        <div class="columns small-3 small-offset-1 medium-1"><img src="<?php echo get_template_directory_uri();?>/assets/img/entreprises/logo_newave.png" /></div>
-        <div class="columns small-3 small-offset-1 medium-1"><img src="<?php echo get_template_directory_uri();?>/assets/img/entreprises/logo_laclementine.png" /></div>
-        <div class="columns small-3 small-offset-1 medium-1"><img src="<?php echo get_template_directory_uri();?>/assets/img/entreprises/logo_lsis.png" /></div>
+        <div class="columns small-3 small-offset-1 medium-1"><img src="<?php echo get_template_directory_uri();?>/assets/img/entreprises/logo_newave.webp" /></div>
+        <div class="columns small-3 small-offset-1 medium-1"><img src="<?php echo get_template_directory_uri();?>/assets/img/entreprises/logo_laclementine.webp" /></div>
+        <div class="columns small-3 small-offset-1 medium-1"><img src="<?php echo get_template_directory_uri();?>/assets/img/entreprises/logo_lsis.webp" /></div>
 
-        <div class="columns small-3 small-offset-1 medium-1"><img src="<?php echo get_template_directory_uri();?>/assets/img/entreprises/logo_produweb.jpg" /></div>
+        <div class="columns small-3 small-offset-1 medium-1"><img src="<?php echo get_template_directory_uri();?>/assets/img/entreprises/logo_produweb.webp" /></div>
         <div class="columns small-3 small-offset-1 medium-1"><img src="<?php echo get_template_directory_uri();?>/assets/img/entreprises/logo_bugiweb.webp" /></div>
-        <div class="columns small-3 medium-1"><img src="<?php echo get_template_directory_uri();?>/assets/img/entreprises/logo_bugiweb.png" /></div>
+        <div class="columns small-3 medium-1"><img src="<?php echo get_template_directory_uri();?>/assets/img/entreprises/logo_onlyweb.webp" /></div>
 
     </div>
 </section>
