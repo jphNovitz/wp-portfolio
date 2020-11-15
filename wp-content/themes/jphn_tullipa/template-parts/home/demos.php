@@ -12,7 +12,7 @@ $x = 0;
 
 <section id="demos" class="m2">
     <div class="row m2 ">
-        <div class="columns small-12 medium-4 large-5 align-middle">
+        <div class="columns small-12 medium-7 large-5 align-middle">
             <h4 class="article-title">Ce que je fais</h4>
             <aside class=" big lead">
                 Quelque uns de mes projets les plus récents
