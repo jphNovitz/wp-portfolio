@@ -49,7 +49,7 @@ $x = 0;
         endif;
         ?>
 
-            <article class="columns small-12  medium-6 large-3 card"
+            <article class="columns small-12  large-3 card"
                      style="background-image: url(
                              '<?php echo get_the_post_thumbnail_url(get_the_ID(), 'medium'); ?>'">
                 <div class="card-divider">
