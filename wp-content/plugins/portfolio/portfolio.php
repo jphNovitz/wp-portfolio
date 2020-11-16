@@ -126,6 +126,7 @@ class Portfolio {
             'public' => true,
             'show_admin_column' => true,
             'query_var' => true,
+            'has_archive' => 'portfolio',
             'rewrite' => ['slug' => 'portfolio'],
         ];
         register_post_type('portfolio', $author_args);
