@@ -1,0 +1,32 @@
+.dots{
+    background-image: url("../../assets/img/pink-dots-spaced-24.png");
+    width: 7rem;
+    display: inline-block;
+    background-size: auto;
+    background-repeat: space;
+    height: 6rem;
+}
+
+#archive h1{
+    color: $secondary-color;
+}
+#archive h1:after  {
+    content: " ";
+    background-image: url("../../assets/img/pink-dots-spaced-24.png");
+    width: 7rem;
+    display: inline-block;
+    background-size: auto;
+    background-repeat: space;
+    height: 6rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+
+  #archive .justify-center {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  @archive .card-parent{
+    margin: 1rem, auto;
+  }
