@@ -17,6 +17,7 @@ $x = 0;
             <aside class=" big lead">
                 Quelque uns de mes projets les plus récents
             </aside>
+            <p><a href="/portfolio" class="button primary rounded text-white">Portfolio</a></p>
         </div>
     </div>
 

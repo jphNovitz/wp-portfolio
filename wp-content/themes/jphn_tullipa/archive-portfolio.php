@@ -16,20 +16,32 @@ get_header();
     <?php
     if (have_posts()) {
         $x = 1;
-        echo '<div class="row ">';
+        echo '<div class="row align-middle justify-center ">';
         while (have_posts()) :
             the_post();
            
-          //  if($x==1) :
-           //     echo '<div class="row ">';
-          //  elseif ($x === 15):
-          //      echo '</div> <div class="row justify-center">';
-           // endif;
-            echo '<div class="columns small-6  medium-5 medium-offset-1 large-3 card-parent">';
-            echo '<div class="card">';
-            the_title('<h4 class="">', '</h4> </a>');
-            the_content();
-            echo '</div>';
+            echo '<div class="columns small-6  medium-5  large-3 card-parent">';
+            echo '<article class="card" style="background-image: url(
+                '.get_the_post_thumbnail_url(get_the_ID(), "medium").'">';
+               
+               ?>
+                <div class="card-divider">
+                <h4><?php the_title(); ?></h4>
+                <br/><a href="<?php echo get_post_permalink(); ?>">
+                    <i class="fi-arrow-right link size-72"></i>
+                </a>
+                <!--                            <a href="--><?php //echo get_post_permalink();
+                ?><!--">--><?php //the_title();
+                ?><!--</a>-->
+                <!--
+    <p>-->
+                <!--                                --><?php //the_excerpt();
+                ?>
+                <!--                            </p>-->
+                <!--            <p>le code se trouve sur <a href="https://github.com/jphNovitz/sandwicherie">github</a></p>-->
+            </div>
+            <?php 
+            echo '</article>';
             echo '</div>';
             $x++;
         endwhile;
