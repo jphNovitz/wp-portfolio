@@ -3,7 +3,7 @@
  * file single-portfolio.php
  * Content of a portfolio site
  * author: Novitz Jean-Philippe <novitz@gmail.com>
- * date: 02-2019
+ * date: 11-2020
  */
 ?>
 
