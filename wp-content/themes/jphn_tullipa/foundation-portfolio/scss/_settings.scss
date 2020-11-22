@@ -61,6 +61,9 @@
 //  56. Xy Grid
 
 @import 'util/util';
+@import 'motion-ui';
+@include motion-ui-transitions;
+@include motion-ui-animations;
 
 // 1. Global
 // ---------

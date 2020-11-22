@@ -61,4 +61,9 @@ function the_presentation()
 
 
 require get_template_directory() . '/inc/jph_admin.php';
+
+function remove_shortcode_from($content) {
+    $content = strip_shortcodes( $content );
+    return $content;
+}
 ?>

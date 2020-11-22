@@ -7,10 +7,13 @@
     height: 6rem;
 }
 
-#archive h1{
+#archive h1,
+#single h1{
     color: $secondary-color;
 }
-#archive h1:after  {
+
+#archive h1:after,
+#single h1:after  {
     content: " ";
     background-image: url("../../assets/img/pink-dots-spaced-24.png");
     width: 7rem;
@@ -22,12 +25,14 @@
     margin-top: 1rem;
   }
 
-  #archive .justify-center {
+  #archive .justify-center,
+  #single .justify-center {
     flex-direction: row;
     justify-content: space-around;
   }
 
-  #archive .card-parent{
+  #archive .card-parent,
+  #single .card-parent{
     margin: 1rem, auto;
   }
 
@@ -48,6 +53,9 @@
   #single .aside-links .description a:visited,
   #single .aside-links .description a:active{
     color: $secondary-color;
+  }
+  #single .aside-links .description{
+    min-height: 3rem;
   }
 
   #single .aside-links .link-icon{

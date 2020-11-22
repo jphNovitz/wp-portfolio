@@ -220,3 +220,31 @@ footer {
 
   }
 }
+
+/* orbit */
+//.orbit-container { height: 2500px !important ;}  /* Set to height of slides */
+
+/*.orbit-container .orbit-slides-container > * {
+  position: relative;
+  margin-left: 0;
+  float: left;
+  height: 100%;
+}*/
+
+.orbit-bullets button {
+background-color: $primary-color !important;
+opacity: .2;
+}
+
+.orbit-bullets button.is-active{
+  background-color: $primary-color !important;
+opacity: 1 !important;
+}
+
+.orbit-caption {
+background-color: $secondary-color !important;
+
+}
+
+/* *** */
+
