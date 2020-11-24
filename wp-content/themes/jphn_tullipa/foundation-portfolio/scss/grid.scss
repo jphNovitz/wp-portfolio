@@ -231,6 +231,11 @@ footer {
   height: 100%;
 }*/
 
+.orbit-slides{
+  display: flex;
+justify-content: center;
+}
+
 .orbit-bullets button {
 background-color: $primary-color !important;
 opacity: .2;
@@ -242,8 +247,13 @@ opacity: 1 !important;
 }
 
 .orbit-caption {
+  display: none;
 background-color: $secondary-color !important;
 
+}
+.orbit-previous, .orbit-next{
+  background-color: $secondary-color;
+  border-radius: 50%;
 }
 
 /* *** */
