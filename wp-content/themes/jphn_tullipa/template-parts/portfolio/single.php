@@ -52,7 +52,7 @@ while ($site->have_posts()) : $site->the_post();
             if (count($gallery) > 0) :
 ?>
     <div class="row">
-        <div class="columns small-12">
+        <div class="columns small-12 medium-8 medium-offset-2">
     <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
   <div class="orbit-wrapper">
     <div class="orbit-controls">
@@ -71,7 +71,7 @@ while ($site->have_posts()) : $site->the_post();
       <li class="<?php echo $status; ?> orbit-slide">
         <figure class="orbit-figure">
           <img class="orbit-image" src="<?php echo $image ?>" alt="Space">
-          <figcaption class="orbit-caption">Space, the final frontier.</figcaption>
+          <figcaption class="orbit-caption">Novitz Jean-Philippe Developpeur</figcaption>
         </figure>
       </li>
         <?php 
@@ -99,7 +99,7 @@ while ($site->have_posts()) : $site->the_post();
   
 
     <div class="row m2 ">
-        <aside class="columns small-6  medium-3 ">
+        <aside class="columns small-12  medium-3 ">
             <div class="row aside-links">
     <span class="columns small-12 name">
         Site
@@ -116,7 +116,7 @@ while ($site->have_posts()) : $site->the_post();
 </span>
             </div>
         </aside>
-        <aside class="columns small-6 medium-3">
+        <aside class="columns small-12 medium-3">
         <div class="row aside-links">
             <span class="columns small-12 name">    
             github
@@ -130,7 +130,7 @@ while ($site->have_posts()) : $site->the_post();
                 <i class="fi-social-github"></i>
                 </span>
         </aside> 
-        <aside class="columns small-6 medium-3">
+        <aside class="columns small-12 medium-3">
         <div class="row aside-links">
             <span class="columns small-12 name">    
             Technos
@@ -144,7 +144,7 @@ while ($site->have_posts()) : $site->the_post();
                 <i class="fi-widget"></i>
                 </span>
         </aside>
-        <aside class="columns small-6 medium-3">
+        <aside class="columns small-12 medium-3">
         <div class="row aside-links">
             <span class="columns small-12 name">    
             Languages
