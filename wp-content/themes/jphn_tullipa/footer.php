@@ -35,6 +35,7 @@
             <li><a href="http://wellness360.be/">wellness</a> </li>
             <li><a href="http://demos.jphnovitz.be/flat/">flat design</a> </li>
             <li><a href="http://demos.jphnovitz.be/puzzle">js puzzle</a> </li>
+            <li><a href="https://site-web-pas-cher.be">Un site web pas cher</a> </li>
         </ul>
     </div>
 </div>
