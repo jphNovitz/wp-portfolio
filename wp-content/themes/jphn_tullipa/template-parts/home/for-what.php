@@ -2,7 +2,7 @@
     <article class="columns small-12 medium-4 align-middle">
         <h4 class="article-title">A propos</h4>
         <div class="big lead">
-            Contacter moi pour ce sais faire pour m'apporter une nouvelle expérience dans ce que vous faite.
+            Contactez moi pour ce sais faire, pour m'apporter une nouvelle expérience dans ce que vous faite.
         </div>
         <p>Développeur web atypique qui n'hésite pas à sortir de sa zone de confort.</p>
         <a href="#" class="button primary rounded text-white">Mon profil</a>
