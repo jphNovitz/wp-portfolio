@@ -6,7 +6,7 @@
             j'ai  du temps, de l'écoute et mon savoir faire.
 
         </div>
-        <a href="mailto:hello@jphnovitz.be" class="button primary rounded text-white">Mon profil</a>
+        <a href="mailto:hello@jphnovitz.be" class="button primary rounded text-white">Contacte moi vite</a>
 
     </article>
     <div class="columns small-12 medium-push-1 medium-7 align-middle">
