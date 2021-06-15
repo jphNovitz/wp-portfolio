@@ -2,10 +2,12 @@
     <article class="columns small-12 medium-4 align-middle">
         <h4 class="article-title">A propos</h4>
         <div class="big lead">
-            Contactez moi pour ce sais faire, pour m'apporter une nouvelle expérience dans ce que vous faites.
+            Tu veux un site internet sans te ruiner ? Je n'ai pas un bureau avec un belle vue ni une voiture de fonction,
+            j'ai  du temps, de l'écoute et mon savoir faire.
+
         </div>
         <p>Développeur web atypique qui n'hésite pas à sortir de sa zone de confort.</p>
-        <a href="#" class="button primary rounded text-white">Mon profil</a>
+        <a href="mailto:hello@jphnovitz.be" class="button primary rounded text-white">Mon profil</a>
 
     </article>
     <div class="columns small-12 medium-push-1 medium-7 align-middle">
