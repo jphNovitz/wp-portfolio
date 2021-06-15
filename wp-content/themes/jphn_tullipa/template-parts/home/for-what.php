@@ -6,7 +6,6 @@
             j'ai  du temps, de l'écoute et mon savoir faire.
 
         </div>
-        <p>Développeur web atypique qui n'hésite pas à sortir de sa zone de confort.</p>
         <a href="mailto:hello@jphnovitz.be" class="button primary rounded text-white">Mon profil</a>
 
     </article>
