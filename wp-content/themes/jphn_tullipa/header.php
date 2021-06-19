@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Developpeur web Novitz Jean-PHilippe - Liège</title>
-    <meta name="description" content="Développeur web réalise votre site internet.  Site vitrine, site ecommerce, association ou mvp de de votre projet. J'utilise les technologies php et javascript.  " />
+    <title>Creation de site internet  -  Liège</title>
+    <meta name="description" content="Création de sites internet sur mesure à Liège. Une communication efficace pour faire connaître votre entreprise ou votre activité et augmenter vos ventes.  Développeur Ardent, au cœur de Liège." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
 

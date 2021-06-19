@@ -7,7 +7,7 @@
     <div class="top-bar" id="menu1">
         <div class="top-bar-left ">
             <ul class="dropdown vertical medium-horizontal  menu " data-dropdown-menu>
-                <li class="menu-text">Développeur Web</li>
+                <li class="menu-text">Création de sites internet</li>
                 <li><a href="<?php echo home_url();?>">Accueil</a></li>
                 <li><a href="#">Compétences</a>
                     <ul class="menu">
