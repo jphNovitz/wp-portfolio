@@ -9,11 +9,11 @@
 ?>
 
 <header class="row align-middle m2" id="intro">
-    <div id="" class="columns small-12 large-6">
+    <div id="" class="columns small-12 large-12">
         <div class="row">
-            <h2 class="columns small-6">Création de sites web</h2>
-            <h1 class="columns small-12">Site Vitrinne, Ecommerce, projet MVP</h1>
-            <h3 class="columns small-9">
+            <h2 class="columns small-6">Création de sites internet sur mesure à Liège.</h2>
+            <h1 class="columns small-12"> Une communication efficace pour faire connaître votre entreprise ou votre activité et augmenter vos ventes.</h1>
+            <h3 class="columns small-12">
                 <?php echo(get_option('pitch')); ?>
             </h3>
         </div>
