@@ -66,4 +66,6 @@ function remove_shortcode_from($content) {
     $content = strip_shortcodes( $content );
     return $content;
 }
+
+add_filter( 'wp_sitemaps_enabled', '__return_true' );
 ?>
