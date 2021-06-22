@@ -6,7 +6,7 @@
             <div class="row">
                 <h1 class="columns small-12"><?php the_title(); ?></h1>
             </div>
-        
+
             <p class="post-info">
                 Posté le <?php the_date(); ?> dans <?php the_category(', '); ?> par <?php the_author(); ?>.
             </p>

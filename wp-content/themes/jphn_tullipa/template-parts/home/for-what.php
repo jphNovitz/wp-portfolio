@@ -12,9 +12,12 @@
     <div class="columns small-12 medium-push-1 medium-7 align-middle">
         <div class="row">
             <article class="card columns small-6 large-5">
-                <div class="card-divider">Site vitrine</div>
+                <div class="card-divider">Landing page, Site vitrine</div>
                 <div class="card-description">Une simple présence sur le web</div>
-                <div class="card-section">Quelque mots sur vous, une ou deux photos.. simplement être sur le web.  Peut-être le premier pas vers quelque chose de plus grand.</div>
+                <div class="card-section">
+                    <a href="/site-internet-pas-cher/augmente-ta-visibitite/" class="text-center button primary rounded text-white"></a>
+                    Quelque mots sur vous, une ou deux photos.. simplement être sur le web.  Peut-être le premier pas vers quelque chose de plus grand.
+                </div>
             </article>
             <article class="card columns small-6  large-5 large-offset-1">
                 <div class="card-divider">ECommerce</div>
