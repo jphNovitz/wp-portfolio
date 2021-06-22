@@ -2,7 +2,7 @@
 
 <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
-        <div id="single" class="container" style="min-height: 100vh;">
+        <div id="single" class="grid-container" style="min-height: 100vh;">
             <div class="row">
                 <h1 class="columns small-12"><?php the_title(); ?></h1>
             </div>

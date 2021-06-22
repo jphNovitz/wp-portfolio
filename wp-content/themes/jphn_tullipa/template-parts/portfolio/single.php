@@ -17,7 +17,7 @@ $customFields = get_post_custom();
 //var_dump($langageTerms);
 //echo '</pre>';
 ?>
-<div id ="single" class="grid-container" style="min-height: 100vh;">
+<div id ="single" class="container" style="min-height: 100vh;">
 <div class="row">
 <h1 class="columns small-12">Portfolio</h1>
 </div>
