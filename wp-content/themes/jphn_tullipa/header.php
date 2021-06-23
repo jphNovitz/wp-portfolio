@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr"> 
 <head>
+    <?php require_once("analytics.php");?>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Creation de site internet  -  Liège</title>
