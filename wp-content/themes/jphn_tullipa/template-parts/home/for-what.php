@@ -18,8 +18,8 @@
                 <div class="card-section">
                     Quelque mots sur vous, une ou deux photos.. simplement être sur le web. Peut-être le premier pas
                     vers quelque chose de plus grand.
-                    <div class="text-center">
-                        <a href="/site-internet-pas-cher/augmente-ta-visibitite/"
+                    <div class="text-center" style="margin-top: .5rem">
+                        <a href="/site-web-pas-cher/augmente-ta-visibitite-sur-internet/"
                            class="text-center button primary rounded text-white"> En savoir plus</a>
                     </div>
                 </div>
