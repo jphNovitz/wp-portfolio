@@ -25,14 +25,14 @@ $x = 0;
     while ($site->have_posts()) :
         $site->the_post();
 
-        if ($x === 0):
+        if ($x === 0 || $x === 6):
             echo '<div class="expanded row m2" style="justify-content: space-evenly;">';
 
         ?>
 
        <?php
        else:
-            if ($x === 3):
+            if ($x === 3 || $x === 6 ):
                 echo '</div>';
                 echo '<div class="row m2"  style="justify-content: space-evenly;">';
             endif;
@@ -52,7 +52,7 @@ $x = 0;
 
             <article class="columns small-12  medium-6 large-3 card"
                      style="background-image: url(
-                             '<?php echo get_the_post_thumbnail_url(get_the_ID(), 'medium'); ?>'">
+                             '<?php echo get_the_post_thumbnail_url(get_the_ID(), 'medium'); ?>'"><?php echo $x; ?>
                 <div class="card-divider">
                     <h4><?php the_title(); ?></h4>
                     <br/><a href="<?php echo get_post_permalink(); ?>">
@@ -69,7 +69,9 @@ $x = 0;
                     <!--            <p>le code se trouve sur <a href="https://github.com/jphNovitz/sandwicherie">github</a></p>-->
                 </div>
             </article>
-
+        <?php
+        if ($x === 5) echo "</div>";
+        ?>
             <?php
         $x++;
     endwhile;
