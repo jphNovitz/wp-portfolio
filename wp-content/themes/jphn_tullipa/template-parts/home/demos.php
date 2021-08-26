@@ -5,7 +5,7 @@ $site = new  WP_Query([
     'orderby' => 'rand',
     'order' => 'ASC',
     'status' => 'published',
-    'posts_per_page' => '6'
+    'posts_per_page' => '9'
 ]);
 $x = 0;
 ?>
@@ -13,9 +13,9 @@ $x = 0;
 <section id="demos" class="m2">
     <div class="row m2 ">
         <div class="columns small-12 medium-7 large-5 align-middle">
-            <h4 class="article-title">Ce que je fais</h4>
+            <h4 class="article-title">Développeur <strong>Symfony</strong></h4>
             <aside class=" big lead">
-                Quelque uns de mes projets les plus récents
+               Some projects
             </aside>
             <p><a href="/portfolio" class="button primary rounded text-white">Portfolio</a></p>
         </div>
