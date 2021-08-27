@@ -15,7 +15,7 @@ $x = 0;
         <div class="columns small-12 medium-7 large-5 align-middle">
             <h4 class="article-title">Développeur <strong>Symfony</strong></h4>
             <aside class=" big lead">
-               Some projects
+               Quelques projets web en php, html/css, javascript et fullstack.
             </aside>
             <p><a href="/portfolio" class="button primary rounded text-white">Portfolio</a></p>
         </div>
@@ -52,7 +52,8 @@ $x = 0;
 
             <article class="columns small-12  medium-6 large-3 card"
                      style="background-image: url(
-                             '<?php echo get_the_post_thumbnail_url(get_the_ID(), 'medium'); ?>'"><?php echo $x; ?>
+                             '<?php echo get_the_post_thumbnail_url(get_the_ID(), 'medium'); ?>'">
+<!--                --><?php //echo $x; ?>
                 <div class="card-divider">
                     <h4><?php the_title(); ?></h4>
                     <br/><a href="<?php echo get_post_permalink(); ?>">

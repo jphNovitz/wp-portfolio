@@ -1,7 +1,7 @@
 <nav class="grid-container">
     <div class="title-bar small-margin-collapse" data-responsive-toggle="menu1" data-hide-for="medium">
-        <!--        <button class="menu-icon" type="button" data-toggle="menu1"></button>-->
-        <div class="title-bar-title"> Jiffy.Codes</div>
+                <button class="menu-icon" type="button" data-toggle="menu1"></button>
+        <div class="title-bar-title"> Novitz Jean-Philippes</div>
     </div>
 
     <div class="top-bar" id="menu1">

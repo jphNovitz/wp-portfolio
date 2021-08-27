@@ -67,5 +67,10 @@ function remove_shortcode_from($content) {
     return $content;
 }
 
+/**
+ *  MENUS
+ */
+register_nav_menu( 'primary', 'Primary Menu' );
+
 add_filter( 'wp_sitemaps_enabled', '__return_true' );
 ?>
