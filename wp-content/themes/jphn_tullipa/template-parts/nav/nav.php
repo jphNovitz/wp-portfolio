@@ -21,6 +21,7 @@
                 <li class="menu-text"><a href="<?php echo home_url() . '#demos'; ?>">Réalisation</a></li>
                 <!--                <li><a href="-->
                 <?php //echo home_url().'##experience_pro';?><!--">Expérience</a></li>-->
+                <li class="menu-text"><a href="/site-web-pas-cher">Site web pas cher</a></li>
                 <li class="menu-text"><a href="#footer">Contact</a></li>
             </ul>
         </div>
