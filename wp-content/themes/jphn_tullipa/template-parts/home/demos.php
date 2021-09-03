@@ -10,73 +10,40 @@ $site = new  WP_Query([
 $x = 0;
 ?>
 
-<section id="demos" class="m2">
-    <div class="row m2 ">
-        <div class="columns small-12 medium-7 large-5 align-middle">
+<section class="m2">
+    <div class="row m2">
+        <div class="columns small-12 medium-7  align-middle">
             <h4 class="article-title">Développeur <strong>Symfony</strong></h4>
             <aside class=" big lead">
-               Quelques projets web en php, html/css, javascript et fullstack.
+                Quelques projets web en php, html/css, javascript et fullstack.
             </aside>
             <p><a href="/portfolio" class="button primary rounded text-white">Portfolio</a></p>
         </div>
     </div>
-
-    <?php
-    while ($site->have_posts()) :
-        $site->the_post();
-
-        if ($x === 0 || $x === 6):
-            echo '<div class="expanded row m2" style="justify-content: space-evenly;">';
-
-        ?>
-
-       <?php
-       else:
-            if ($x === 3 || $x === 6 ):
-                echo '</div>';
-                echo '<div class="row m2"  style="justify-content: space-evenly;">';
-            endif;
-
-            ?>
-
-            <?php
-//if ($x == 2 ):
-//                echo "</div>";
-            if ($x === 6) echo "</div>";
-//            endif;
-            ?>
+    <div class="row">
         <?php
-
-        endif;
-        ?>
-
-            <article class="columns small-12  medium-6 large-3 card"
-                     style="background-image: url(
-                             '<?php echo get_the_post_thumbnail_url(get_the_ID(), 'medium'); ?>'">
-<!--                --><?php //echo $x; ?>
-                <div class="card-divider">
-                    <h4><?php the_title(); ?></h4>
-                    <br/><a href="<?php echo get_post_permalink(); ?>">
-                        <i class="fi-arrow-right link size-72"></i>
-                    </a>
-                    <!--                            <a href="--><?php //echo get_post_permalink();
-                    ?><!--">--><?php //the_title();
-                    ?><!--</a>-->
-                    <!--
-        <p>-->
-                    <!--                                --><?php //the_excerpt();
-                    ?>
-                    <!--                            </p>-->
-                    <!--            <p>le code se trouve sur <a href="https://github.com/jphNovitz/sandwicherie">github</a></p>-->
-                </div>
-            </article>
+        while ($site->have_posts()) :
+            $site->the_post();
+            ?>
+            <div class="columns small-12 medium-6 large-3">
+                <article class="card fluid">
+                    <div style="background-image: url(
+                            '<?php echo get_the_post_thumbnail_url(get_the_ID(), 'medium'); ?>') ;
+                            background-size: cover; background-repeat: no-repeat;
+                            height: 10rem; width: 100% ; overflow: hidden"></div>
+                    <div class="p2 card-section" style="padding: .75rem">
+                        <h5>
+                            <a href="<?php echo get_post_permalink(); ?>"> <?php the_title(); ?> </a>
+                        </h5>
+                        <p>
+                            <?php the_excerpt(); ?>
+                        </p>
+                    </div>
+                </article>
+            </div>
         <?php
-        if ($x === 5) echo "</div>";
+        endwhile;
         ?>
-            <?php
-        $x++;
-    endwhile;
-    ?>
 
-
+    </div>
 </section>
