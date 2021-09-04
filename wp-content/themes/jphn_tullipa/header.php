@@ -5,6 +5,8 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Creation de site internet  -  Liège</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone">
+    <script src="https://kit.fontawesome.com/bc8956f3e3.js" crossorigin="anonymous"></script>
     <meta name="description" content="Création de sites internet  sur mesure à Liège. Une communication efficace pour faire connaître votre entreprise ou votre activité et augmenter vos ventes.  Développeur Ardent, au cœur de Liège." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
