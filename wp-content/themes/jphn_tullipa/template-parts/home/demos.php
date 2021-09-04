@@ -53,7 +53,7 @@ $x = 0;
 <div id="techno" class="m2" >
     <div class="row m2">
         <div class="columns small-12 medium-6">
-            <h4 class="article-title">Réalisation de projets webs </h4>
+            <h4 class="article-title">Réalisation de projets web </h4>
             <div class="big lead">
                 Développement Web Fullstack
             </div>

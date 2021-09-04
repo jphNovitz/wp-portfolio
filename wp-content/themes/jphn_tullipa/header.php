@@ -12,6 +12,7 @@
 <!--          content="Création de sites internet  sur mesure à Liège. Une communication efficace pour faire connaître votre entreprise ou votre activité et augmenter vos ventes.  Développeur Ardent, au cœur de Liège."/>-->
     <meta property="og:title" content="Developpeur de sites web Symfony et Wordpress à Liège"/>
     <meta property="og:type" content="siteweb" />
+    <meta property="og:locale" content="fr_BE" />
     <meta property="og:url" content="https://jphnovitz.be" />
     <meta property="og:image" content="https://jphnovitz.be/wp-content/uploads/2021/06/Wavy_Bus-20_Single-07-ai-1.png" />
     <meta property="og:site_name" content="Développeur de sites web à Liège" />
