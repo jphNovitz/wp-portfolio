@@ -4,12 +4,13 @@
     <?php require_once("analytics.php"); ?>
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Developpeur de sites web Symfony et Wordpress à Liège</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone">
+    <title>Developpeur de sites web Symfony et Wordpress à Liège</title>
     <meta name="description"
-          content="Création de sites internet à Liège. Développement de sites web responsives en html et css, php et javascript. Symfony et Wordpressl"/>
+          content="Développeur Web à Liège. Création de sites internet responsives en html et css, php et javascript. Symfony et Wordpressl"/>
 <!-- <meta name="description"-->
 <!--          content="Création de sites internet  sur mesure à Liège. Une communication efficace pour faire connaître votre entreprise ou votre activité et augmenter vos ventes.  Développeur Ardent, au cœur de Liège."/>-->
+    <meta property="og:description" content="Développeur Web à Liège. Création de sites internet responsives en html et css, php et javascript. Symfony et Wordpressl"/>
     <meta property="og:title" content="Developpeur de sites web Symfony et Wordpress à Liège"/>
     <meta property="og:type" content="siteweb" />
     <meta property="og:locale" content="fr_BE" />
