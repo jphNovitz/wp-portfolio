@@ -5,11 +5,13 @@ var autoprefixer  = require('autoprefixer');
 
 var minifyCSS = require('gulp-minify-css');
 
-
+var sass = require('gulp-sass')(require('sass'));
 var sassPaths = [
   'node_modules/foundation-sites/scss',
   'node_modules/motion-ui/src'
 ];
+var sass = require('gulp-sass')(require('sass'));
+
 
 //js
 var vendorJsDir = 'node_modules/foundation-sites/assets';
@@ -29,7 +31,7 @@ function sass() {
     .pipe(gulp.dest('../assets/css'))
     .pipe(browserSync.stream())
     
-   // .pipe(minifyCSS());
+    //.pipe(minifyCSS());
 };
 
 //js

@@ -7,7 +7,7 @@ get_header();
 <?php //require_once (get_template_directory().'/template-parts/home/js.php'); ?>
 
 <?php //require_once (get_template_directory().'/template-parts/home/experience.php'); ?>
-<?php require_once (get_template_directory().'/template-parts/home/techno.php'); ?>
+<?php //require_once (get_template_directory().'/template-parts/home/techno.php'); ?>
 
 
 <?php
